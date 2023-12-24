@@ -38,12 +38,20 @@
 * primarni stresovy hormon
 * vyssi uroven kortizolu zuzuje cevy v oblasti bricha (nedostatek krve zpusobuje
   pocit motylku)
+* v 'socialne prijatelnem' prostredi (pobliz pratel a blizkych) je kortizol
+  vypousten v mensim mnozstvi v reakci na averzni stimuly
+* v zamilovanosti je hladina kortizolu vyssi
 
 ### oxytocin
 
 * primarni sexualni (a reproduktivni) hormon
 * vypousten v reakci na fyziologickou erotiku -- doteky, polibky, sex
-* dulezita role pri laktaci a zblizovani
+* dulezita role pri laktaci a zblizovani (romantickem i neromantickem --
+  individual recognition, social memory)
+* exogenni aplikace oxytocinu ++: prosocial decisions, attention to others,
+  feelings of trust, generosity
+* efekty oxytocinu jsou udajne pomerne kratkodobe (za formaci a udrzovani vztahu
+  pravdepodobne muze hlavne beta-endorfin)
 * pri orgasmu vypousten ve velkem mnozstvi, spolecne s dopaminem a
   noradrenalinem -- proto brany z casti spise jako 'zensky' hormon, kvuli
   kratsi retraktivni periode; vyssi hladina oxytocinu autonomne hodnoti
