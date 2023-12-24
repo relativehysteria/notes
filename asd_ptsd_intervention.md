@@ -60,7 +60,9 @@ gpt generated protoze fuck you
 
 > ... However, several studies have noted that exposure may increase rather than decrease symptoms in some individuals. _Stress inoculation training involving breathing exercises, relaxation training_, ___thought stopping___, _role playing, and cognitive restructuring has also proven effective alone and in combination with prolonged exposure in reducing PTSD symptoms_. ...
 
-### GROUNDING
+### akutni pomoc
+
+WHO ma docela hezky tentonon [zde](https://iris.who.int/bitstream/handle/10665/331901/9789240003910-eng.pdf) :)
 
 1. panic attacks are short-term; ride the wave; so far you've always survived..
 2. calm spot (zadne hlasite zvuky, agresivni osvetleni..); utek od triggeru (napr. zachodky, maly princ)
