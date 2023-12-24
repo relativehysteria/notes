@@ -64,13 +64,13 @@ gpt generated protoze fuck you
 
 1. panic attacks are short-term; ride the wave; so far you've always survived..
 2. calm spot (zadne hlasite zvuky, agresivni osvetleni..); utek od triggeru (napr. zachodky, maly princ)
-3. grounding a unhooking (bacha na stresory)
-3.1. nohy na zem a pevne se drzet
-3.2. deep, slow breaths
-3.3. jaky je den? datum? cas?
-3.4. kde jsi? co se nachazi kolem? co vidis? popis barvy, texturu, vztah k objektum; soustred se na smysly (jak to asi chutna? jak to voni? jaky by bylo se toho dotknout? co to dela?)
-3.5. 5-4-3-2-1: 5 co vidis, 4 kterych se muzes dotknout, 3 co slysis, 2 co voni, 1 co chutna
-3.6. co bys dnes chtel delat? co bys chtel delat tento tyden?
-3.7. s kym bys ted chtel byt?
-3.8. poslechni si hudbu -- o cem se zpiva? privon k parfemu, ochutnej jidlo -- co je uvnitr za prisady?..
-3.9. venuj se nekomu; jak zni jejich hlas? popis ho. jak artikuluji? jak se tvari?
+3. grounding a unhooking (bacha na stresory)  
+3.1. nohy na zem a pevne se drzet  
+3.2. deep, slow breaths  
+3.3. jaky je den? datum? cas?  
+3.4. kde jsi? co se nachazi kolem? co vidis? popis barvy, texturu, vztah k objektum; soustred se na smysly (jak to asi chutna? jak to voni? jaky by bylo se toho dotknout? co to dela?)  
+3.5. 5-4-3-2-1: 5 co vidis, 4 kterych se muzes dotknout, 3 co slysis, 2 co voni, 1 co chutna  
+3.6. co bys dnes chtel delat? co bys chtel delat tento tyden?  
+3.7. s kym bys ted chtel byt?  
+3.8. poslechni si hudbu -- o cem se zpiva? privon k parfemu, ochutnej jidlo -- co je uvnitr za prisady?..  
+3.9. venuj se nekomu; jak zni jejich hlas? popis ho. jak artikuluji? jak se tvari?  
