@@ -35,38 +35,38 @@ membrane proteins -- voltage gating, ligand gating, gpcr gating...)
 
 chatgpt generated :^)
 
-1. DNA and Genes
+1. DNA and Genes  
 1.1. DNA (deoxyribonucleic acid) is the genetic material that contains instructions for building and maintaining an organism.  
 1.2. Genes are specific sequences of DNA that code for particular proteins.  
 
-2. Gene Expression
+2. Gene Expression  
 2.1. Gene expression is the process by which the information in a gene is used to synthesize a functional product, typically a protein.  
 2.2. It involves two main steps: transcription and translation.
 
-3. Transcription
+3. Transcription  
 3.1. Transcription occurs in the cell nucleus.  
 3.2. RNA polymerase, an enzyme, reads the DNA template and synthesizes a complementary RNA molecule called messenger RNA (_mRNA_).  
 3.3. The mRNA carries the genetic information from the nucleus to the cytoplasm.
 
-4. mRNA and Nissl Bodies
+4. mRNA and Nissl Bodies  
 4.1. Nissl bodies, also known as rough endoplasmic reticulum (RER), are membrane-bound organelles in the cell cytoplasm.  
 4.2. The mRNA associates with ribosomes on the surface of the RER for translation.
 
-5. Translation
+5. Translation  
 5.1. Translation occurs in the cytoplasm on ribosomes.  
 5.2. Transfer RNA (tRNA) molecules bring amino acids to the ribosome based on the codons (triplets of nucleotides) on the mRNA.  
 5.3. Amino acids are linked together in a specific order to form a polypeptide chain, which eventually folds into a functional protein.
 
-6. Protein Folding and Modification
+6. Protein Folding and Modification  
 6.1. After translation, the polypeptide chain may undergo folding to achieve its functional three-dimensional structure.  
 6.2. The newly synthesized protein may undergo post-translational modifications in the endoplasmic reticulum and Golgi apparatus.  
 6.3. Modifications can include adding sugars (glycosylation), lipids, or other functional groups.
 
-7. Transport in Vesicles
+7. Transport in Vesicles  
 7.1. The modified proteins are packaged into vesicles, which are small membrane-bound sacs.  
 7.2. Vesicles transport the proteins to their destination within the cell or outside the cell.
 
-8. Exocytosis
+8. Exocytosis  
 8.1. Vesicles containing the modified proteins fuse with the cell membrane through a process called exocytosis.  
 8.2. The contents of the vesicle are released into the extracellular space or, in the case of membrane proteins, incorporated into the cell membrane.
 
@@ -77,7 +77,7 @@ chatgpt generated :^)
 ### axon and potentials
 
 1. conduct action potential (flow of charge to the terminal -- depolarizing: positive wave followed by repolarizing: negative wave)
-2. microtubules -- filled with motor proteins involved in transporting things down the axon
+2. microtubules -- filled with motor proteins involved in transporting things down the axon  
 2.1. kinesin (+) -- cell body down to the axon terminal (anterograde axonal transport); e.g. proteins synthesized in the soma to the terminal; neurotransmitters, mitochondria, enzymes, etc.  
 2.2. dynein (-) -- axon terminal up to the cell body (retrograde axonal transport); e.g. degraded organelles, degraded mitochondria, nerve growth factors
 
