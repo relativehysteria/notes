@@ -7,7 +7,7 @@
 * dendrites -- little extensions: receptive zone
 * cell body / soma
 * axon 
-* axon hillock -- part where the body and the axon are connected (the funnel)
+* axon hillock -- part where the body and the axon are connected (basically the funnel where lots of voltage gated channels are situated)
 * axon terminal bulb / synaptic terminal bulb
 
 ### dendrites
