@@ -76,8 +76,10 @@ chatgpt generated :^)
 
 ### axon and potentials
 
+axons:
+
 1. conduct action potential (flow of charge to the terminal -- depolarizing: positive wave followed by repolarizing: negative wave)
-2. microtubules -- filled with motor proteins involved in transporting things down the axon  
+2. contain microtubules -- filled with motor proteins involved in transporting things down the axon  
 2.1. kinesin (+) -- cell body down to the axon terminal (anterograde axonal transport); e.g. proteins synthesized in the soma to the terminal; neurotransmitters, mitochondria, enzymes, etc.  
 2.2. dynein (-) -- axon terminal up to the cell body (retrograde axonal transport); e.g. degraded organelles, degraded mitochondria, nerve growth factors
 
@@ -141,3 +143,40 @@ serotonin reuptake proteins only transport back 5-HT neurotransmitters.
 reuptake inhibitors inhibit these proteins from working (e.g. SSRIs inhibit
 serotonin reuptake proteins, causing serotonin to remain present for a longer
 time within the synapse).
+
+## classification
+
+### structural
+
+1. multipolar -- multiple dendritic extensions
+* within the motor cortex (pyramidal); receptive to, for example, signals from
+  the basal ganglia, the sensory cortex, the cerebellum, pre-motor and
+  supplementary motor cortex...
+* within the cerebellum (purkinje/purkyně)
+* ...
+
+2. bipolar -- one dendritic extension
+* mainly in special sensory organs
+* the retina, olfactory nerves (roof of the nasal cavity), inner ear
+
+3. pseudounipolar -- no dendritic extensions (usually sensory neurons)
+* dorsal root ganglion (neuron groups just outside of the spinal cord); e.g. 
+  picking up sensations from the skin and synapsing in the spinal cord
+* cranial nerves (e.g. trigeminal -- V; these pick up sensations from all over
+  your face and send them towards the nucleus in your brain stem)
+
+### functional
+
+1. sensory (afferent information)  
+* _general visceral_ afferent fibers (internal organs)
+* _general somatic_ afferent fibers (skin, joints, ligaments, skeletal muscles)
+* _special sensory_ afferent fibers (special sensory organs: vision, hearing)
+* _special visceral_ afferent fibers (special visceral sensory organs: smell, taste)
+
+2. motor (efferent information)
+* _general visceral_ efferent fibers
+* _general somatic_ efferent fibers
+* _special visceral_ (around your face and neck) efferent fibers
+
+3. interneurons (neurons which connect motor and sensory neurons; i.e. you have
+pricked your finger and you reflexively move it away)
