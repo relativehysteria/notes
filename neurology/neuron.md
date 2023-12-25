@@ -83,20 +83,28 @@ axons:
 2.1. kinesin (+) -- cell body down to the axon terminal (anterograde axonal transport); e.g. proteins synthesized in the soma to the terminal; neurotransmitters, mitochondria, enzymes, etc.  
 2.2. dynein (-) -- axon terminal up to the cell body (retrograde axonal transport); e.g. degraded organelles, degraded mitochondria, nerve growth factors
 
-#### graded potentials
+#### potentials
 
-* depolarization (epsp) -- when the cell is more positive, stimulated to fire
-* hyperpolarization (ipsp) -- when the cell is more negative, inhibited from firing
+the resting membrane potential of a neuron is around -70mv.
 
-along the axon are _voltage gated sodium/potassium channels_.  
+* depolarization (excitatory post-synaptic potential) -- when the cell is more positive than rmp, stimulated to fire. the threshold is around -55mv, then the action potential is reached, channels are opened and the neuron fires
+* hyperpolarization (inhibitory post-synaptic potential) -- when the cell is more negative than rmp (around -90mv), inhibited from firing
 
-sodium channels open when you hit a threshold voltage, causing sodium ions to
+along the axon are _voltage gated sodium/potassium channels_, which open when
+action potential / depolarization threshold is hit.
+
+sodium channels open when you hit the threshold voltage, causing sodium ions to
 rush _into_ the cell, making it very positive
 (depolarizing phase of the action potential).  
 
 once the axon has been stimulated, the cell goes into a resting state: potassium
 channels open after depolarization, potassium floods _out_ of the cell
-(which is the repolarizing wave).
+(which is the repolarizing wave), causing the cell to become very negative.
+
+__temporal summation__ is when one presynaptic neuron causes a postsynaptic
+neuron to fire by exciting it multiple times in a row, causing it to reach the
+action potential. __spatial summation__ is when multiple presynaptic neurons
+cause a postsynaptic neuron to fire by exciting it simultaneously.
 
 #### nerve growth factor (NGF)
 
