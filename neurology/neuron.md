@@ -2,6 +2,9 @@
 
 ![anatomy of a neuron](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Blausen_0657_MultipolarNeuron.png/1920px-Blausen_0657_MultipolarNeuron.png)
 
+although some neuronal tissue does regenerate (and some of it _is_ likely
+replaced in a lifetime), most of it remains unchanged during one's life.
+
 ## anatomy
 
 * dendrites -- little extensions: receptive zone
