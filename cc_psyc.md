@@ -117,3 +117,37 @@ _psychoactive drugs_ -- chemical substances that alter your mood and perception
 * depressants -- mellow, slowness, suppression of bodily activity; alcohol, tranquilizers, opiates
 * stimulants -- excite neural activity, self-confidence, speed up bodily activity; caffeine, nicotine, amphetamines
 * hallucinogens -- distort perceptions, evoke sensory images; plant, fungal, synthetic (e.g. lsd)
+
+## memory
+
+* recall -- retrieval of information learned earlier
+  ("---- is the capital of greece")
+* recognition -- identification of items learned earlier
+  ("which of the following was not an ancient city in greece")
+* relearning -- reinforcing old information (relearn shit you have forgotten)
+
+__atkinson-shiffrin memory model__
+1. sensory register -- sensory information enters memory
+2. short-term memory -- receives and holds input from both the sensory register
+   and the long-term memory
+3. long-term memory -- essentially a hard drive that stores *everything* such
+   that memories can be later retrieved
+
+__working memory__ -- conscious, active processing of incoming auditory and 
+visual-spatial information, and of information retrieved from long-term memory.
+[baddeley-hitch working memory model](https://en.wikipedia.org/wiki/Baddeley%27s_model_of_working_memory)
+essentially replaces the short-term memory in the atkinson-shiffrin model.
+
+_explicit memory_ -- shit that you specifically want to remember  
+_implicit memory_ -- shit that you remember without explicitly caring about it
+(this is how you learn most of your shit -- associations and stimuli; this is
+what behaviorism is about)
+
+long-term memory storage is not quite understood.. yet.
+
+_shallow processing_ -- encoding information on basic auditory or visual levels,
+based on the sound, structure or appearance of a word (e.g. brain anatomy and
+latin words, without understanding the latin behind them)  
+_deep processing_ -- encoding semantically, based on actual meaning associated
+with the words (actually understanding the latin and therefore easily knowing
+what is what)
