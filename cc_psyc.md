@@ -151,3 +151,91 @@ latin words, without understanding the latin behind them)
 _deep processing_ -- encoding semantically, based on actual meaning associated
 with the words (actually understanding the latin and therefore easily knowing
 what is what)
+
+_retrieval cues_ -- stuff that helps to retrieve specific memories; similar scent,
+the song that was playing, the temperature, something else that reminds you
+of the memories
+
+_priming_ -- activating associations non-consciously (i.e. if you talk, or if
+you keep thinking and you keep remembering, you non-consciously remember
+more and more, because the memories are bound and connected)
+
+our states and emotions can also serve as retrieval cues; e.g. when you're sad,
+you tend to prime negative associations and retrieve bad memories.
+
+_primacy effect_ -- shit that you learn first is easily remembered  
+_recency effect_ -- shit that you learn last is easily remembered  
+everything inbetween is harder to remember
+
+tl;dr -- there's a lot of problems with making wrong memories, retrieving
+wrong connections, deterioration etc.
+
+## motivation
+
+the need or desire to do something
+
+* evolutionary perspective -- instincts (complex, unlearned behaviors that have
+  a fixed pattern throughout a species -- shit that doesn't require learning and
+  it just happens)
+* drive-reduction -- a physiological need, or drive, compels us to reduce
+  a need (you're hungry -- eat, you're tired -- sleep); it's all about maintaining
+  homeostasis -- a balance in our biological systems
+* optimal arousal -- balance between stimulation and relaxation
+* maslow's hierarchy of needs
+
+essentially, we are driven by
+* sex
+* hunger
+* the need to belong
+
+decline in one need may lead to decline in another need.
+
+## developmental psychology
+
+__jean piaget__. this is the yale lesson that i didn't skip (5th one), but didn't
+write down either because it's so fucking boring :D
+
+_assimilation_ -- if faced with something new, the learning of new information
+is explained by known information (if you've never seen a deer but have seen a
+horse, you might call a deer 'a weird horse')  
+_accommodation_ -- learning, that there's new information that doesn't quite fit
+into one's current understanding
+
+tl;dr -- there are holes in piaget's theories but essentially the point is, that
+we are learning relatively fast in the first few months and the ways we learn
+etc. the most important fact is that children think *very differently* from how
+adults think.
+
+## harlow and child development
+
+children don't only require food and nourishment, but most importantly, for their
+mental health and development, comfort, touch, contact and love
+(specifically, the feeling that they are loved).
+
+attachment styles studied in children (ainsworth's styles of attachment):
+* secure -- as long as mom is nearby, they explore and interact positively
+* insecure avoidant -- little interest in mom, little interest in stranger
+* insecure ambivalent -- afraid of the stranger, scared when mom left,
+  angry when mom came back
+
+sensitive and attentive mothers raise securely attached kids  
+less responsive mothers who often ignored their children, or super-anxious mothers
+who obsessed over every little thing, often raised insecurely attached kids
+
+## erikson's life crises
+
+erik erikson came up with the table that each person, depending on their age,
+is going through a primary life crisis
+* infancy -- trust vs mistrust
+* toddlerhood -- autonomy vs shame and doubt
+* preschool -- initiative vs guilt
+* elementary school -- competence vs inferiority
+* adolescence -- identity vs role confusion
+* young adulthood -- intimacy vs isolation
+* middle adulthood -- generativity vs stagnation
+* late adulthood -- integrity vs despair
+
+## defense mechanisms
+
+read [10.3389/fpsyg.2021.718440](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8555762/)
+and [10.1176/appi.ajp.2012.11091403](https://libgen.li/ads.php?md5=b98ce5ba93d4d4cac9ab2dcba438c48e&downloadname=10.1176/appi.ajp.2012.11091403)
