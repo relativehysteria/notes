@@ -239,3 +239,25 @@ is going through a primary life crisis
 
 read [10.3389/fpsyg.2021.718440](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8555762/)
 and [10.1176/appi.ajp.2012.11091403](https://libgen.li/ads.php?md5=b98ce5ba93d4d4cac9ab2dcba438c48e&downloadname=10.1176/appi.ajp.2012.11091403)
+
+## humanism
+
+maslow and _rogers_
+
+person-centered perspective on personality:
+* genuineness 
+* acceptance
+* empathy
+
+## personality tests
+
+there's a lot of them. the myers-briggs (4x4/16 personalities) is a classic,
+but the minnesota multiphasic personality inventory is the most widely used one
+(MMPI-3 as of today).
+
+## intelligence
+
+the ability to learn from experience, solve problems, and use knowledge to adapt
+to new experiences.
+
+it's measurable, but _very fucking complicated_
