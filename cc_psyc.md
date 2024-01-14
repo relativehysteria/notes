@@ -261,3 +261,34 @@ the ability to learn from experience, solve problems, and use knowledge to adapt
 to new experiences.
 
 it's measurable, but _very fucking complicated_
+
+## feelings and emotions
+
+emotions are responses to stimulus :)
+
+emotions are split into almost-instant non-cognitive reactions and the more 
+complicated ones
+* top-down -- love, hatred -- stimulus goes into the sensory cortex, through
+  the thalamus, through the rest of the cortex (prefrontal most importantly) and
+  then into the limbic system, which results in the final reaction
+* bottom-up -- fear and shock -- stimulus goes into the sensory cortex, right 
+  through amygdala to the limbic system
+
+nonetheless, all reactions are either partially (top-down), or completely
+(bottom-up) controlled by the autonomic nervous system -- it's the shit that your
+body does automatically. the autonomic nervous system is divided into:
+* sympathetic nervous system (SNS) -- fight or flight
+  -- quick and instant, stimulating arousal
+* parasympathetic nervous system (PSNS) -- feed and breed, rest and digest
+  -- slow, inhibiting arousal
+
+you wanna get into _optimal arousal_
+
+introverts tend to be better at interpreting emotions, whereas extroverts tend
+to be better at expressing them
+
+emotions follow a 2d model: pleasant/positive or unpleasant/negative _and_
+low arousal or high arousal
+
+we overestimate the duration of bad moods and underestimate our capacity to
+adapt and bounce back from traumas, even when we feel hopeless.
