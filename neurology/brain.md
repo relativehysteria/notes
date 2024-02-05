@@ -27,7 +27,7 @@ temporal lobe (especially the hippocampus) is involved in cross-modal processing
 where it integrates visual, auditory, and other sensory information to create a
 more comprehensive and meaningful representation of the environment.
 
-## Areas
+## Speech Areas
 
 ### [Broca's area](https://en.wikipedia.org/wiki/Broca%27s_area)
 
@@ -63,3 +63,46 @@ It is involved in the comprehension of written, signed and spoken language.
 Damage caused to Wernicke's area results in receptive, fluent aphasia. This
 means that the person with aphasia will be able to fluently connect words, but
 the phrases will lack meaning.
+
+## Meninges (mozkové pleny/blány)
+
+![Meninges](https://upload.wikimedia.org/wikipedia/commons/8/8e/Meninges-en.svg)
+
+![Dural venous sinuses](https://upload.wikimedia.org/wikipedia/commons/0/0f/Sobo_1909_589.png)
+
+Membranes that envelop the brain and the spinal cord, protecting both.
+In mammals, these meninges are
+1. Dura Mater
+2. Arachnoid Mater
+3. Pia Mater
+
+Cerebrospinal fluid is located in the subarachnoid space, located between the
+arachnoid mater and pia mater.
+
+Inflammation of the meninges is called _meningitis_.
+
+### Dura Mater
+
+![Major venous sinuses and their tributaries](https://upload.wikimedia.org/wikipedia/commons/8/8c/Major_venous_sinuses_and_their_tributaries.png)
+
+Thick, durable membrane, closest to the skull and vertebrae. Contains larger
+blood vessels that split into the capillaries (vlásečnice) in the pia mater.
+Envelops the arachnoid mater and surrounds, supports and protects the large
+dural sinuses carrying blood from the brain toward the heart.
+
+### Arachnoid Mater
+
+Thin, resembling a spider web. Below this mater is the subarachnoid space,
+where the cerebrospinal fluid circulates.
+
+The arachnoid mater makes arachnoid villi (granulations), small protrusions
+through the dura mater into the venous sinuses of the brain, which allow
+cerebrospinal fluid to exit the subarachnoid space and enter the blood stream.
+
+![Arachnoid granulations](https://upload.wikimedia.org/wikipedia/commons/c/c0/Arachnoid_granulations.jpg)
+
+### Pia Mater
+
+Very thin, permeable to water and small solutes. Closely surrounds the brain
+(into the silcuses as well). The pia mater allows blood vessels to pass through
+and nourish the brain.
