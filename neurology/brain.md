@@ -68,7 +68,7 @@ the phrases will lack meaning.
 
 ![Meninges](https://upload.wikimedia.org/wikipedia/commons/8/8e/Meninges-en.svg)
 
-![Dural venous sinuses](https://upload.wikimedia.org/wikipedia/commons/0/0f/Sobo_1909_589.png)
+![Dural venous sinuses](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Sobo_1909_589.png/1280px-Sobo_1909_589.png)
 
 Membranes that envelop the brain and the spinal cord, protecting both.
 In mammals, these meninges are
@@ -89,6 +89,22 @@ Thick, durable membrane, closest to the skull and vertebrae. Contains larger
 blood vessels that split into the capillaries (vlásečnice) in the pia mater.
 Envelops the arachnoid mater and surrounds, supports and protects the large
 dural sinuses carrying blood from the brain toward the heart.
+
+#### Falx Cerebri
+
+Fold of dura mater descending vertically into the longitudinal fissure,
+separating the hemispheres and supporting dural sinuses that provide
+venous and CSF drainage to the brain.
+
+#### Falx Cerebelli
+
+Very small fold of dura mater descending into the vertical crevice (vallecula)
+of the cerebellum.
+
+#### Tentorium Cerebelli
+
+Fold of dura mater descending into the horizontal crevice above the cerebellum,
+separating the inferior occipital lobe from the superior cerebellum.
 
 ### Arachnoid Mater
 
