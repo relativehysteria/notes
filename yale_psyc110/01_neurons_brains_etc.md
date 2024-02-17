@@ -71,8 +71,6 @@ some things you don't need your brain for:
 
 #### key parts
 
-(explained in the [detailed document](../neurology/brain.md)):
-
 * medulla oblongata (prodlouzena micha) -- heart rate, respiration
 * cerebellum (mozecek) -- body balance, muscular coordination
 * hypothalamus -- feeding, hunger, thirst, sleep

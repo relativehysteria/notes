@@ -1,3 +1,5 @@
+For details, read the various files in [anatomy](./anatomy/README.md)
+
 ![Brain lobes](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Brainlobes.svg/1280px-Brainlobes.svg.png)
 
 ![Brodmann Areas](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/1307_Brodmann_Areas.jpg/1920px-1307_Brodmann_Areas.jpg)
