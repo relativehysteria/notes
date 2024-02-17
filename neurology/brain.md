@@ -120,5 +120,18 @@ cerebrospinal fluid to exit the subarachnoid space and enter the blood stream.
 ### Pia Mater
 
 Very thin, permeable to water and small solutes. Closely surrounds the brain
-(into the silcuses as well). The pia mater allows blood vessels to pass through
+(into the sulcuses as well). The pia mater allows blood vessels to pass through
 and nourish the brain.
+
+## Ventricles (komory) of the Brain
+
+![ventricles of the brain](https://upload.wikimedia.org/wikipedia/commons/1/17/Brain-ventricle-anatomy-diagram.jpg)
+
+The ventricular system is a set of four interconnected cavities, lined with
+a membrane called the __choroid plexus__, which is composed of neuroglial
+(non-neuron) cells called ependymal cells. These cells are designed to secrete
+CSF. Thus, the main role of the ventricles is to produce and distribute CSF.
+
+There are, in a sense, four ventricles: I and II are the lateral ventricles,
+both present in each of the hemispheres, and between the hemispheres, there are
+III and IV.
