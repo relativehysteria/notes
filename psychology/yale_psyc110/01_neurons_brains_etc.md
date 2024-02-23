@@ -24,13 +24,13 @@ je to (afaik) z roku 2007, takze znacne zastarale, ale facha to. :)
 
 ![anatomy of a neuron](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Blausen_0657_MultipolarNeuron.png/1920px-Blausen_0657_MultipolarNeuron.png)
 
-[details here](../neurology/neuron.md)
+[details here](../../neurology/neuron.md)
 
 * dendrite -- get signals from other neurons (excitatory, inhibitory)
 * axon -- signals are sent along the axon (can be LONG -- spinal cord -> legs)
 * myelin sheath -- helps the neuron fire quicker (during depolarization)
 
-__signals are all or nothing__ (explained in the [detailed document](../neurology/neuron.md)), therefore, intensity is encoded like so:
+__signals are all or nothing__, therefore, intensity is encoded like so:
 * frequency of firing
 * number of neurons firing
 
