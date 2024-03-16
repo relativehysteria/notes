@@ -74,3 +74,44 @@ the ACB is supplying the more medial aspect of the motor cortex (that is, the
 trunk and the lower limbs). stroke of this artery leads to lower extremity
 paralysis. the MCB is supplying the more lateral aspect of the cortex,
 leading to paralysis of the upper extremities, head and neck.
+
+## Motor Association Cortex -- Premotor + SMA (Brodmann's Area 6)
+
+also contribute to voluntary motor movement, but is more involved in
+_fine motor movement_. just like the primary motor cortex, they supply lower
+motor neurons, but particularly _of the trunk (axial muscles) and of the
+proximal limbs (hips and shoulders)_.
+
+this cortex is also involved in __planning, sequence and execution__ of motor
+movement.
+
+essentially, the motor association cortex is a part of two communication feedback
+loops: one with the _basal ganglia_ (where they come up with modified motor
+activity -- initiate wanted movements, prevent unwanted movements, modulate
+movements in a particular way) and one with the _cerebellum_.
+
+the cerebellum receives various input, goes through all of it, combining it and
+sends its modifications back to the motor cortical areas. the input is like so:
+1. from your inner ear -- mostly static and dynamic equilibrium
+2. sensations: your touch, positional awareness of your muscles, tendons, joints
+   in a three-dimensional space
+3. the motor plan that the premotor and supplementary cortex want to initiate
+
+more on that, read [this shit](https://neupsykey.com/cognitive-functions-of-the-premotor-systems/).
+```
+These two structures provide feedback essential for the smooth execution of
+skilled movements and thus are important for motor learning, the improvement in
+motor skills through practice. The cerebellum and the basal ganglia store
+memory for unconscious motor skills through pathways that are separate from
+those used to store factual memories of events that can be recalled consciously.
+```
+
+### The Whole of the Motor Cortex
+
+_in a sense, you can understand that the primary motor cortex is the final
+executor of the motor plan, whereas the motor association cortex is the 
+primary creator and modifier of the plan. the plan is initiated and created
+somewhere, modified by the association cortex, sent to the primary motor cortex
+which then executes it. the association cortex is also involved in storing
+information about how fine motor movements are executed, such that it can be
+later retrieved to modify the motor plan._
