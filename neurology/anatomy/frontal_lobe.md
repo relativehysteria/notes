@@ -115,3 +115,33 @@ somewhere, modified by the association cortex, sent to the primary motor cortex
 which then executes it. the association cortex is also involved in storing
 information about how fine motor movements are executed, such that it can be
 later retrieved to modify the motor plan._
+
+## Prefrontal Cortex (Brodmann's Areas 8-14, 24, 25, 32, 45-47)
+
+involved in your:
+1. personality and behaviors
+2. your working memory (short-term + rehearsal)
+3. cognition (ability to learn and think)
+4. decision making (reasoning and judgment)
+5. motor planning ([10.1098/rstb.2020.0524](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8710885/))
+
+the prefrontal cortex has _a fuck ton_ of connections to other areas in the brain,
+e.g. the hippocampus (memory and information consolidation), the limbic system
+(your personality; the hypothalamus, the amygdala, etc.),
+[the ventral tegmental area](https://en.wikipedia.org/wiki/Ventral_tegmental_area)
+(origin of the dopaminergic cell bodies, so your reward/addiction system),
+[posterior association area](https://en.wikipedia.org/wiki/Association_cortex)
+(visual, auditory and somatic sensations are sent to the PAA, where they are
+integrated together and sent to the prefrontal cortex, which can be involved with
+motor planning, because it can communicate with your basal ganglia).
+
+### Fronto-Temporal Dementia
+
+symptoms of frontal lobe damage:
+1. aggression, hostility, irritability..
+2. memory loss (retrograde _and_ anterograde, i.e. learning)
+3. inappropriate reasoning and judgment (hypersexual behavior, gambling, apathy..)
+4. parkinson's like motor deficits
+
+more damage to the temporal lobe can cause inability to comprehend language,
+so on top of everything else, aphasia.
