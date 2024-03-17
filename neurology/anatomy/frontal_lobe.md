@@ -145,3 +145,28 @@ symptoms of frontal lobe damage:
 
 more damage to the temporal lobe can cause inability to comprehend language,
 so on top of everything else, aphasia.
+
+## Frontal Eye Fields
+
+involved in voluntary rapid eye movements (saccadic eye movement).
+
+there are three important nuclei within your brainstem; nuclei of the cranial
+nerves [III (oculomotor)](https://en.wikipedia.org/wiki/Oculomotor_nerve) and
+[VI (abducens)](https://en.wikipedia.org/wiki/Abducens_nerve) and the 
+[paramedian pontine reticular formation](https://en.wikipedia.org/wiki/Paramedian_pontine_reticular_formation).
+
+frontal eye fields move the eyes like so (example given on the right FEF):
+1. the right FEF signals the left paramedian reticular formation.
+2. the left paramedian reticular formation signals to the left CN VI
+3. the left CN VI abducts the left eye via the lateral rectus muscle,
+   causing it to move to the left. at the same time, this nucleus signals to
+   the right CN III.
+4. the right CN III abducts the right eye via the medial rectus muscle,
+   causing it to move to the left.
+5. in the end, both eyes move to the left
+
+### Lesion to the FEF
+
+lesion to a FEF causes the eye to be unable to move to the contralateral side,
+resulting in ipsilateral conjugate gaze deviation. that is, damage to right FEF
+causes the eye to gaze towards the right side.
