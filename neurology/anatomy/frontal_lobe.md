@@ -146,7 +146,7 @@ symptoms of frontal lobe damage:
 more damage to the temporal lobe can cause inability to comprehend language,
 so on top of everything else, aphasia.
 
-## Frontal Eye Fields
+## Frontal Eye Fields (Brodmann's Area 8)
 
 involved in voluntary rapid eye movements (saccadic eye movement).
 
@@ -170,3 +170,33 @@ frontal eye fields move the eyes like so (example given on the right FEF):
 lesion to a FEF causes the eye to be unable to move to the contralateral side,
 resulting in ipsilateral conjugate gaze deviation. that is, damage to right FEF
 causes the eye to gaze towards the right side.
+
+## Broca's Area
+
+present in the dominant hemisphere (90% right if right-handed, 70% right if
+left-handed). involved in stimulation of muscles of speech. communicates
+with the wernicke's area in the temporal lobe (this area is where we comprehend
+language -- it receives information from your visual and auditory cortex...)
+via the [arcuate fasciculus](https://en.wikipedia.org/wiki/Arcuate_fasciculus).
+
+stimulates some nuclei of the corticobulbar tract, specifically the ones
+involved with speech. e.g.
+1. CN VII (facial) = [orbicularis oris muscle](https://en.wikipedia.org/wiki/Orbicularis_oris_muscle)
+2. CN IX, X, XI (the [nucleus ambiguus](https://en.wikipedia.org/wiki/Nucleus_ambiguus)) = soft palate, uvula, pharynx, larynx
+3. CN XII (hypoglossal) = muscles of the tongue
+
+### Lesion & Broca's Aphasia
+
+lesion to broca's area is usually caused by a lesion to the middle cerebral
+artery.
+
+although broca's area primarily deals with the motor aspects of speech production,
+it also plays a role in syntactic processing -- the formation of grammatically
+correct sentences. therefore, symptoms of broca's aphasia are:
+1. nonfluent speech (innervations to speech muscles are weakened, causing speech muscle weakness)
+2. grammatically incorrect speech
+3. comprehension of language is retained (wernicke's area is not damaged)
+
+for these reasons, it is sometimes referred to as __expressive aphasia__ --
+people can understand and comprehend speech, but have problems expressing
+themselves.
