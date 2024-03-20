@@ -3,8 +3,9 @@
 separated from the parietal lobe by the central sulcus and from the temporal
 lobe by the lateral sulcus/fissure (sylvian fissure).
 
-the gyrus anterior to the central sulcus is the __primary motor cortex__, which
-is involved in voluntary movement (particularly of _skeletal muscles_).
+the gyrus anterior to the central sulcus (precentral gyrus) is the __primary
+motor cortex__, which is involved in voluntary movement (particularly of
+_skeletal muscles_).
 
 next gyrus, anterior to the primary motor cortex, is the motor association
 cortex, made up of the __premotor cortex__ and the __supplementary motor area__
@@ -130,7 +131,7 @@ e.g. the hippocampus (memory and information consolidation), the limbic system
 (your personality; the hypothalamus, the amygdala, etc.),
 [the ventral tegmental area](https://en.wikipedia.org/wiki/Ventral_tegmental_area)
 (origin of the dopaminergic cell bodies, so your reward/addiction system),
-[posterior association area](https://en.wikipedia.org/wiki/Association_cortex)
+[posterior association area](https://en.wikipedia.org/wiki/Parietal-temporal-occipital)
 (visual, auditory and somatic sensations are sent to the PAA, where they are
 integrated together and sent to the prefrontal cortex, which can be involved with
 motor planning, because it can communicate with your basal ganglia).
