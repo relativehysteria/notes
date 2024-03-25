@@ -10,7 +10,7 @@ $`\overline{acceleration} = \frac{\Delta velocity}{\Delta time}`$, e.g. $`a = 10
 
 _displacement_ = change in position.  
 for example, if you move 5m straight and then 6m back, displacement from the
-starting position would be 1m, but distance traveled would be 11m.
+starting position would be -1m, but distance traveled would be 11m.
 
 rearranged, __definition of acceleration__: $`\overline{v} = v_0 + a t`$  
 __definition of the displacement curve__: $`x - x_0 = v_0 (t) + \frac{1}{2} a (t^2)`$
