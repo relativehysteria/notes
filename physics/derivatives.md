@@ -26,6 +26,10 @@ types of functions, for example the __power rule__.
 
 both notations are cringe but you should use them both anyway :^)
 
+one special case is $e^x$, whose function is equal to its prime function.
+watch [this](https://youtu.be/AuA2EAgAegE?feature=shared&t=425) and pay
+attention to the gradient.
+
 ### Examples
 
 1.  $x = 7t^6$  
