@@ -30,6 +30,9 @@ one special case is $e^x$, whose function is equal to its prime function.
 watch [this](https://youtu.be/AuA2EAgAegE?feature=shared&t=425) and pay
 attention to the gradient.
 
+the reverse operation of differentiation (derivatives) is integration (integral);
+the integral of acceleration is velocity.
+
 ### Examples
 
 1.  $x = 7t^6$  
