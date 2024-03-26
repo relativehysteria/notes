@@ -48,7 +48,7 @@ and therefore its derivative is 0. from -270 to -90, $sin(x)$ is decreasing,
 therefore its derivative will be negative. from -90 to 90, it is increasing,
 causing its derivative to be positive.
 
-1. derivative of $sin(x)$ is $cos(x)$
-1. derivative of $cos(x)$ is $-sin(x)$
-2. derivative of $-sin(x)$ is $-cos(x)$
-3. derivative of $-cos(x)$ is $sin(x)$
+1. $f'(sin(x)) = cos(x)$
+1. $f'(cos(x)) = (-sin(x))$
+2. $f'(-sin(x)) = (-cos(x))$
+3. $f'(-cos(x)) = sin(x)$
