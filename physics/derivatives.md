@@ -42,6 +42,12 @@ both notations are cringe but you should use them both anyway :^)
 
 ![derivative of sin](https://www.storyofmathematics.com/wp-content/uploads/2021/03/visualizing-the-derivative-of-sine-along-with-the-function-of-sine.png)
 
+tracking the turning points of the curve (in this case, $sin(x)$), every ~180
+degrees (e.g. -90 and 90). here, the function isn't changing at all (is constant)
+and therefore its derivative is 0. from -270 to -90, $sin(x)$ is decreasing,
+therefore its derivative will be negative. from -90 to 90, it is increasing,
+causing its derivative to be positive.
+
 1. derivative of $sin(x)$ is $cos(x)$
 1. derivative of $cos(x)$ is $-sin(x)$
 2. derivative of $-sin(x)$ is $-cos(x)$
