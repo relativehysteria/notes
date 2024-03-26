@@ -33,5 +33,5 @@ both notations are cringe but you should use them both anyway :^)
 2.  $x = t^\frac{1}{2}$  
 2.1 $\frac{dx}{dt} = \frac{1}{2} t^{-\frac{1}{2}}$
 3.  $x = t^{-2}$  
-3.1 $\frac{dx}{dt} = -2t^{-3}$
+3.1 $\frac{dx}{dt} = -2t^{-3}$  
 3.2 $\frac{dx}{dt} = -\frac{2}{t^3}$
