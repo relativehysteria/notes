@@ -35,3 +35,14 @@ both notations are cringe but you should use them both anyway :^)
 3.  $x = t^{-2}$  
 3.1 $\frac{dx}{dt} = -2t^{-3}$  
 3.2 $\frac{dx}{dt} = -\frac{2}{t^3}$
+
+### Trigonometry
+
+![sin cos tan](https://andymath.com/wp-content/uploads/2019/07/Righttriangletrigonomety.jpg)
+
+![derivative of sin](https://www.storyofmathematics.com/wp-content/uploads/2021/03/visualizing-the-derivative-of-sine-along-with-the-function-of-sine.png)
+
+1. derivative of $sin(x)$ is $cos(x)$
+1. derivative of $cos(x)$ is $-sin(x)$
+2. derivative of $-sin(x)$ is $-cos(x)$
+3. derivative of $-cos(x)$ is $sin(x)$
