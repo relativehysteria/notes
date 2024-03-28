@@ -55,6 +55,15 @@ přijímačky na medmuni
   a výkon el. proudu.
 * __Elektrický proud v polovodičích__: vlastní a nevlastní (příměsové)
   polovodiče, polovodičové diody a tranzistory, termoelektrický jev.
+* __Elektrický proud v elektrolytech__: elektrolytická disociace, Faradayovy zákony, elektrolýza, galvanické články.
+* __Elektrický proud v plynech a ve vakuu__: ionizace plynů, katodové záření, termoemise elektronů a její využití.
+* __Magnetické pole__: vznik magnetického pole, magnetické pole vodičů s proudem, silové působení magnetického pole na vodiče s proudem, magnetická indukce, silové působení mezi vodiči s proudem, magnetické vlastnosti látek, vznik a měření střídavého napětí a proudu, induktance, kapacitance, impedance, Thomsonův vztah, elektromagnetická indukce.
+* __Světlo__: rychlost světla, úplný odraz, odraz a lom světla (Snellův zákon), index lomu, rozklad světla hranolem, spektroskop, interference světla, ohyb světla, polarizace světla.
+* __Optické soustavy a optické zobrazení__: čočky jako zobrazovací soustavy (zobrazovací rovnice čočky), oko jako optická soustava, lupa, mikroskop, dalekohled.
+* __Elektromagnetické záření a jeho energie__: přehled elektromagnetického záření, základní pojmy spektrální analýzy, základní fotometrické a radiometrické veličiny, tepelné záření.
+* __Základní pojmy kvantové fyziky__: fotoelektrický jev, Comptonův jev, částicové i vlnové vlastnosti fotonů, spontánní a stimulovaná emise záření - laser, vlnové vlastnosti částic.
+* __Elektronový obal atomu__: čárový charakter atomových spekter a kvantování energie atomu, kvantově mechanický model atomu vodíku, kvantová čísla
+* __Struktura atomového jádra__: elementární částice, atomové jádro, jaderné reakce, přirozená radioaktivita, zákon radioaktivní přeměny, druhy záření a jejich vlastnosti, štěpení a slučování jader, jaderný reaktor, výroba a užití radionuklidů, detekce jaderného záření.
 
 ## Chemie
 
