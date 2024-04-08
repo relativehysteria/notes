@@ -3,6 +3,7 @@
 from random import uniform, randint, choice
 from math import sqrt
 
+
 def task1():
     task_text = "Na dovolenou jedete autem po dálnici {t0} hodin rychlostí {v0} km.h-1. Potom na {t1} hodin zastavíte. Pokračujete {t2} hodin stálou rychlostí {v2} km.h-1 až do cíle. Určete průměrnou rychlost cestování (v km/h)."
 
@@ -134,6 +135,108 @@ def task5():
     print(f"rychlost lodky:  {vLodka}ms-1")
     print(f"rychlost proudu: {vProud}ms-1")
 
+
+def task6():
+    task_text = "Ze dvou míst vzdálených od sebe {s} km vyjely současně proti sobě auto a motocykl. Auto se pohybovalo rychlostí {vA} km/h a motocykl rychlostí {vM} km/h. Kdy a kde se potkají?"
+
+    s = randint(40, 80)
+    vA, vM = [randint(50, 100) for i in range(2)]
+
+    print(task_text.format(s=s, vA=vA, vM=vM))
+    input()
+
+    ## SOLUTION
+
+    # relativni rychlost
+    v = vA + vM
+
+    # dopocitame cas a vzdalenost
+    t = round(s / v, 2)
+    s = round(t * vA, 2)
+
+    print(f"za {round(t * 60, 2)} minut ({t} hodin), {s} km od startu auta")
+
+
+def task7():
+    task_text = "Ze dvou míst M a P vzdálených od sebe {s} m se současně pohybují dvě tělesa rovnoměrným přímočarým pohybem stejným směrem. Těleso pohybující se z místa M má rychlost {vM} m/s a z místa P se těleso pohybuje rychlostí {vP} m/s. Za jaký čas dosáhne první těleso druhé? Jaké vzdálenosti urazí obě tělesa za tuto dobu?"
+
+    s = randint(100, 500)
+    vM, vP = sorted([randint(2, 10) for i in range(2)], reverse=True)
+    vM = vM + 1 if vM == vP else vM
+
+    print(task_text.format(s=s, vM=vM, vP=vP))
+    input()
+
+    ## SOLUTION
+
+    # relativni rychlost
+    v = vM - vP
+
+    # cas a vzdalenost
+    t = round(s / v, 2)
+    sM = vM * t
+    sP = vP * t
+
+    print(f"prvni teleso dosahne druhe za {t} sekund. teleso M urazi {sM} m, teleso P {sP} m.")
+
+
+def task8():
+    task_text = "Autobus pohybující se rychlostí {v0} km/h zvyšuje svoji rychlost během {t} s se stálým zrychlením {a} m/s2. Jakou dráhu urazí za tuto dobu?"
+
+    v0 = randint(50, 100)
+    t = randint(5, 10)
+    a = round(uniform(1, 4), 2)
+
+    print(task_text.format(v0=v0, t=t, a=a))
+    input()
+
+    ## SOLUTION
+
+    v0 *= 1000 / 3600
+
+    # vysvetleno v task3()
+    # $\Delta x = \frac{v_0 + at + v_0}{2} \times t$.
+    deltaX = round((v0 + a * t + v0)/2 * t, 2)
+
+    print(f"{deltaX} m")
+
+
+def task9():
+    task_text = "Jak velké je zrychlení pohybu, při kterém těleso pohybující se ze stavu klidu urazí během {ts}. sekundy vzdálenost {ts} m"
+
+    ts = randint(1, 10)
+
+    print(task_text.format(ts=ts))
+    input()
+
+    ## SOLUTION
+
+    # vysvetleno v task3()
+    # $\Delta x = \frac{v_0 + at + v_0}{2} \times t$.
+    a = (2 * ts - 2 * 0 * ts) / ts ** 2
+    print(f"{a} m/s")
+
+
+def task10():
+    task_text = "Řidič automobilu začne brzdit, přičemž velikost brždění je {a} m.s-2, a než zastaví, urazí dráhu {s} m. Za jakou dobu zastavil a jaká byla jeho počáteční rychlost?"
+
+    a = round(uniform(5, 10), 2)
+    s = randint(30, 100)
+
+    print(task_text.format(a=a, s=s))
+    input()
+
+    ## SOLUTION
+
+    # pokud misto zrychleni zpomalujem, tak muzene zrychleni nechat kladne,
+    # pokud prohodime "zpomaleni" na "zrychleni z klidu" :D
+    #
+    # vysvetleno v task3()
+    # $\Delta x = \frac{v_0 + at + v_0}{2} \times t$.
+    t = round(sqrt((2 * s) / 6.5), 2)
+    v = round((2 * s) /  t, 2)
+
+    print(f"pocatecni rychlost byla {v} m/s, a zastavil za {t} sekund")
 
 
 # choose a random task and execute it
