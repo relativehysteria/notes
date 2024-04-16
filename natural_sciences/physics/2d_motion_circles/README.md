@@ -14,12 +14,12 @@ _angular kinematics_:
 
 ### variables
 
-1. $\theta$ = angular displacement (measured in [rad])
+1. $\theta$ = angular displacement (measured in rad)
 2. $s$ = arc length (not shown on the picture; it's the number of meters an
-   object -- the red circle -- has traveled in [$m$]). calculated like so: $s
+   object -- the red circle -- has traveled in $m$). calculated like so: $s
    = r \Delta \theta$
 3. $\omega$ = angular velocity (angular displacement per time, measured in
-   [$\frac{rad}{s}$]).  calculated like so: $\omega = \frac{\Delta \theta}{t}$
+   $\frac{rad}{s}$).  calculated like so: $\omega = \frac{\Delta \theta}{t}$
 4. $v$ = arc speed (speed of an object travelling on the arc). calculated like
    so: $v = r \omega = \frac{r \Delta \theta}{t} = \frac{s}{t}$
 5. $\alpha$ = angular acceleration (change in angular velocity over time).
@@ -45,6 +45,8 @@ essentially, remember this:
 1. angular displacement is $\theta$
 2. angular velocity (change in angular displacement over time) is $\omega$
 3. angular acceleration (change in angular velocity over time) is $\alpha$
-4. to calculate the relations to the arc/distance an object travels instead of
-   the angle, multiply it by the radius (i.e. $arc length = r \theta$, $arc
-   velocity = r \omega$, $arc/tangential acceleration = r \alpha$)
+4. angular and linear kinematics are calculated in the same manner
+5. to calculate the relations to the arc/distance an object travels instead of
+   the angle, multiply it by the radius (i.e. arc length = $r \theta$,
+   arc velocity = $r \omega$, arc/tangential acceleration = $r \alpha$)
+6. centripetal acceleration = $\frac{v^2}{r}$
