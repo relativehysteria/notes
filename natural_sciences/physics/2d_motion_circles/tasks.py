@@ -141,5 +141,4 @@ def task7():
 
 # choose a random task and execute it
 task = choice([t for t in locals().keys() if t.startswith('task')])
-#locals()[task]()
-task7()
+locals()[task]()
