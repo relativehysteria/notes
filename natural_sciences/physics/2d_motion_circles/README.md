@@ -30,6 +30,12 @@ _angular kinematics_:
 8. $a$ = total acceleration. because the tangential and centripetal accelerations
    form a right-angle triangle, the pythagorean theorem can be used:
    $a^2 = a_t^2 + a_c^2$
+9. $T$ = perioda je doba jednoho oběhu v sekundách;
+   $f$ = frekvence, počet oběhů za sekundu v Hertzích;
+   platí vztah $T = \frac{1}{f}$
+
+podle periody a frekvence lze odvodit obloukovou rychlost:  
+$v = \frac{s}{t} = \frac{2 \pi r}{T} = 2 \pi r f$
 
 ![oscillating pendulum showing tangential and centripetal acceleration](https://upload.wikimedia.org/wikipedia/commons/2/24/Oscillating_pendulum.gif)
 
@@ -50,3 +56,4 @@ essentially, remember this:
    the angle, multiply it by the radius (i.e. arc length = $r \theta$,
    arc velocity = $r \omega$, arc/tangential acceleration = $r \alpha$)
 6. centripetal acceleration = $\frac{v^2}{r}$
+7. $v = \frac{s}{t} = \frac{2 \pi r}{T} = 2 \pi r f$
