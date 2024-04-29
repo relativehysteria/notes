@@ -7,20 +7,43 @@
 -----------
 
 1. setrvalost/inertia
-2. momentum
+2. hybnost/momentum
 3. akce/reakce
+
+### síla and shit
+
+jednotka síly je newton
+
+síla má 
+1. pohybový účinek
+2. deformační účinek
+
+účinek závisí na
+1. na velikosti síly
+2. na směru síly
+3. na působišti síly
+
+#### druhy sil
+
+1. tíhová síla
+2. síla tření  
+2.1. smykové tření  
+2.1. a) klidové (statické)  
+2.1. b) pohybové (dynamické)  
+2.2. valivé tření
+
+### definice
 
 definice hybnosti: $p = m v$
 
-definice síly (2. zákon): $F = a m$, měřená v newtonech
+definice síly (2. zákon): $\displaystyle\sum F = a m$, měřená v newtonech
 
 tíhová síla: $F = g m$, působiště je v těžišti tělesa
 
 ![tihova sila](https://lh5.googleusercontent.com/-Fp0C2iHbLmcEr96Yhmdy9KKjHXKExCAOAjDoc_gbyPLSpzMOWub7Yl1Hvu8z801fPaQTc3zkcXCt_G2FiGs_eUjc2LxLfXXiz3cy9pmX-mgNtn0sIFeFpkNBSbhGNE1iQ=w1280)
 
-tíha tělesa: $G = m g$, působiště je v dotyku s druhým tělesem
+tíha tělesa: $G = g m$, působiště je v dotyku s druhým tělesem
 
 ![zavěšená kulička na niti](https://lh6.googleusercontent.com/aKjy2sQ-0lQ7oUEJyTEkdjQIQVqQNDJZr6AHxh4URxXvx-qk3-KRTkAZHFp_2MHQUdcIuwE9OGxPCJhz8wNk9dz43zyqi2kNvaHitb2-L1fnn21pLCilbppUVIJng8UDuQ=w1280)
 
 definice akce a reakce (3. zákon): $F_1 = -F_2$
-
