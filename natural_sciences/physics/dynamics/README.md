@@ -36,7 +36,7 @@ síla má
 
 definice hybnosti: $p = m v$
 
-definice síly (2. zákon): $\displaystyle\sum F = a m$, měřená v newtonech
+[definice síly (2. zákon)](https://www.khanacademy.org/science/physics/forces-newtons-laws/newtons-laws-of-motion/a/what-is-newtons-second-law): $\displaystyle\sum F = a m$, měřená v newtonech
 
 tíhová síla: $F = g m$, působiště je v těžišti tělesa
 
@@ -46,4 +46,6 @@ tíha tělesa: $G = g m$, působiště je v dotyku s druhým tělesem
 
 ![zavěšená kulička na niti](https://lh6.googleusercontent.com/aKjy2sQ-0lQ7oUEJyTEkdjQIQVqQNDJZr6AHxh4URxXvx-qk3-KRTkAZHFp_2MHQUdcIuwE9OGxPCJhz8wNk9dz43zyqi2kNvaHitb2-L1fnn21pLCilbppUVIJng8UDuQ=w1280)
 
-definice akce a reakce (3. zákon): $F_1 = -F_2$
+[definice akce a reakce (3. zákon)](https://www.khanacademy.org/science/physics/forces-newtons-laws/newtons-laws-of-motion/a/what-is-newtons-third-law): $F_1 = -F_2$
+
+třetí zákon jsou rovnocenné síly na více než jednom objektu. síla na objektech musí být stejná, ale hmotnost objektů (a proto akcelerace) může být jiná.
