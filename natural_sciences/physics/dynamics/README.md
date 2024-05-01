@@ -38,7 +38,7 @@ definice hybnosti: $p = m v$
 
 [definice síly (2. zákon)](https://www.khanacademy.org/science/physics/forces-newtons-laws/newtons-laws-of-motion/a/what-is-newtons-second-law): $\displaystyle\sum F = a m$, měřená v newtonech
 
-tíhová síla: $F = g m$, působiště je v těžišti tělesa
+tíhová síla (normal force): $F = g m$, působiště je v těžišti tělesa
 
 ![tihova sila](https://lh5.googleusercontent.com/-Fp0C2iHbLmcEr96Yhmdy9KKjHXKExCAOAjDoc_gbyPLSpzMOWub7Yl1Hvu8z801fPaQTc3zkcXCt_G2FiGs_eUjc2LxLfXXiz3cy9pmX-mgNtn0sIFeFpkNBSbhGNE1iQ=w1280)
 
