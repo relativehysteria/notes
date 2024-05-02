@@ -49,3 +49,9 @@ tíha tělesa: $G = g m$, působiště je v dotyku s druhým tělesem
 [definice akce a reakce (3. zákon)](https://www.khanacademy.org/science/physics/forces-newtons-laws/newtons-laws-of-motion/a/what-is-newtons-third-law): $F_1 = -F_2$
 
 třetí zákon jsou rovnocenné síly na více než jednom objektu. síla na objektech musí být stejná, ale hmotnost objektů (a proto akcelerace) může být jiná.
+
+### take away
+
+síla = $F = m a$ (akcelerace muze byt gravitacni zrychleni)
+
+vzdycky si secti vsechny sily a nezapomen na koeficient treni
