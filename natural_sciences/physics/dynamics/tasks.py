@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from random import uniform, randint, choice
-from math import sqrt, pi, sin, radians
+from math import sqrt, pi, sin, cos, radians
 
 
 def task1():
@@ -62,7 +62,49 @@ def task3():
     print(f"F = {F} N")
 
 
+def task4():
+    task_text = "A box weighing {m} kg is standing on an inclined plane at the {angle} degree angle. What is the box's normal force and its inclined downwards force (perpendicular to the normal force)? What is its downwards acceleration?"
+
+    m = randint(1, 10)
+    angle = randint(20, 40)
+    g = 9.8
+
+    print(task_text.format(m=m, angle=angle))
+    input()
+
+    ## SOLUTION
+
+    Fnorm = round(cos(radians(angle)) * m * g, 1)
+    Fperp = round(sin(radians(angle)) * m * g, 1)
+    a = round(Fperp / m, 1)
+
+    print(f"F normal = {Fnorm} N")
+    print(f"F perpendicular = {Fperp} N")
+    print(f"a = {a} m/s")
+
+
+def task5():
+    task_text = "An initially stationary {m} kg refrigerator sits on the floor. The coefficiont of static friction is {static} and the coefficient of kinetic friction is {kinetic}. Calculate the minimum magnitude of the force needed to overcome static friction and the magnitude of the kinetic force when the fridge is moving."
+
+    m = randint(10, 20) * 10
+    static  = randint(5, 6) / 10
+    kinetic = randint(3, 4) / 10
+    g = 9.8
+
+    print(task_text.format(m=m, static=static, kinetic=kinetic))
+    input()
+
+    ## SOLUTION
+
+    Fnorm = m * g
+
+    # minimum required force to start moving
+    min_static = round(Fnorm * static, 1)
+    kinetic = round(Fnorm * kinetic, 1)
+
+    print(f"minimum force required to move: {min_static} N")
+    print(f"kinetic force: {kinetic} N")
+
 # choose a random task and execute it
 task = choice([t for t in locals().keys() if t.startswith('task')])
-#locals()[task]()
-task3()
+locals()[task]()
