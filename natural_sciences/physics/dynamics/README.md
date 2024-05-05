@@ -40,11 +40,7 @@ definice hybnosti: $p = m v$
 
 tíhová síla (normal force): $F = g m$, působiště je v těžišti tělesa
 
-![tihova sila](https://lh5.googleusercontent.com/-Fp0C2iHbLmcEr96Yhmdy9KKjHXKExCAOAjDoc_gbyPLSpzMOWub7Yl1Hvu8z801fPaQTc3zkcXCt_G2FiGs_eUjc2LxLfXXiz3cy9pmX-mgNtn0sIFeFpkNBSbhGNE1iQ=w1280)
-
 tíha tělesa: $G = g m$, působiště je v dotyku s druhým tělesem
-
-![zavěšená kulička na niti](https://lh6.googleusercontent.com/aKjy2sQ-0lQ7oUEJyTEkdjQIQVqQNDJZr6AHxh4URxXvx-qk3-KRTkAZHFp_2MHQUdcIuwE9OGxPCJhz8wNk9dz43zyqi2kNvaHitb2-L1fnn21pLCilbppUVIJng8UDuQ=w1280)
 
 [definice akce a reakce (3. zákon)](https://www.khanacademy.org/science/physics/forces-newtons-laws/newtons-laws-of-motion/a/what-is-newtons-third-law): $F_1 = -F_2$
 
