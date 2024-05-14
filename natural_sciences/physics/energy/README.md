@@ -1,6 +1,6 @@
 work = energy transferred by force; $Work = Force \times distance \times \cos \theta$. unit is newton-meter, or joule.
 energy = ability to do work
-power = the rate at which work is done; $P = \frac{W}{t}$
+power = the rate at which work is done; $P = \frac{W}{t} = F \times v \times \cos \theta$
 
 kinetic energy is $K = \frac{mv^2}{2}$. unit is also joule.
 
