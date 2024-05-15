@@ -5,12 +5,10 @@ from math import sqrt, pi
 
 
 def task1():
-    task_text = "Hmotný bod koná rovnoměrný pohyb po kružnici o poloměru {r} cm s frekvencí {f} Hz. Určete periodu a velikost rychlosti hmotného bodu."
-
     r = randint(1, 10) * 10
     f = randint(1, 5)
 
-    print(task_text.format(r=r, f=f))
+    print(f"Hmotný bod koná rovnoměrný pohyb po kružnici o poloměru {r} cm s frekvencí {f} Hz. Určete periodu a velikost rychlosti hmotného bodu.")
     input()
 
     ## SOLUTION
@@ -23,11 +21,9 @@ def task1():
 
 
 def task2():
-    task_text = "Hmotný bod koná rovnoměrný pohyb po kružnici s oběžnou dobou {t} s. Určete jeho frekvenci a úhlovou rychlost"
-
     t = round(uniform(1, 10), 1)
 
-    print(task_text.format(t=t))
+    print(f"Hmotný bod koná rovnoměrný pohyb po kružnici s oběžnou dobou {t} s. Určete jeho frekvenci a úhlovou rychlost")
     input()
 
     ## SOLUTION
@@ -40,12 +36,10 @@ def task2():
 
 
 def task3():
-    task_text = "Kabina centrifugy, která je umístěna ve vzdálenosti {r}m od osy otáčení, vykoná za {t}s {n} otáček. Určete velikost její rychlosti a úhlovou rychlost"
-
     r = randint(1, 10)
     t, n = [randint(40, 80) for i in range(1, 3)]
 
-    print(task_text.format(r=r, t=t, n=n))
+    print(f"Kabina centrifugy, která je umístěna ve vzdálenosti {r}m od osy otáčení, vykoná za {t}s {n} otáček. Určete velikost její rychlosti a úhlovou rychlost")
     input()
 
     ## SOLUTION
@@ -59,11 +53,9 @@ def task3():
 
 
 def task4():
-    task_text = "Sekundová ručička hodinek je o {n}/4 delší než minutová. V jakém poměru jsou velikosti rychlostí jejich koncových bodů?"
-
     n = randint(1, 4)
 
-    print(task_text.format(n=n))
+    print(f"Sekundová ručička hodinek je o {n}/4 delší než minutová. V jakém poměru jsou velikosti rychlostí jejich koncových bodů?")
     input()
 
     ## SOLUTION
@@ -79,12 +71,10 @@ def task4():
 
 
 def task5():
-    task_text = "Země obíhá kolem Slunce přibližně rovnoměrným pohybem po kružnici za {T_days} dne. Jaká je oblouková rychlost Země, pokud vzdálenost Země - Slunce je přibližně {r_mil} milionů kilometrů."
-
     T_days = 365.25
     r_mil  = 150
 
-    print(task_text.format(T_days=T_days, r_mil=r_mil))
+    print(f"Země obíhá kolem Slunce přibližně rovnoměrným pohybem po kružnici za {T_days} dne. Jaká je oblouková rychlost Země, pokud vzdálenost Země - Slunce je přibližně {r_mil} milionů kilometrů.")
     input()
 
     ## SOLUTION
@@ -97,15 +87,10 @@ def task5():
 
 
 def task6():
-    task_text = "Jakou nejmenší rychlost musí mít motocyklista, má-li jezdit na vnitřním povrchu duté koule o poloměru {r}m všemi směry? Těžiště motocyklu a jezdce je {cog}m od povrchu."
-
     r   = randint(5, 10)
     cog = round(uniform(0.5, 1), 1)
 
-    r = 6
-    cog = 0.9
-
-    print(task_text.format(r=r, cog=cog))
+    print(f"Jakou nejmenší rychlost musí mít motocyklista, má-li jezdit na vnitřním povrchu duté koule o poloměru {r}m všemi směry? Těžiště motocyklu a jezdce je {cog}m od povrchu.")
     input()
 
     ## SOLUTION
@@ -119,12 +104,10 @@ def task6():
 
 
 def task7():
-    task_text = "Sedačka kolotoče je upevněna ve vzdálenosti {r} cm od středu otáčení a vykonává {f} otáček za minutu. Určitě jí obvodovou rychlost a dostředivé zrychlení"
-
     r = randint(2, 5) * 100
     f = randint(10, 20)
 
-    print(task_text.format(r=r, f=f))
+    print(f"Sedačka kolotoče je upevněna ve vzdálenosti {r} cm od středu otáčení a vykonává {f} otáček za minutu. Určitě jí obvodovou rychlost a dostředivé zrychlení")
     input()
 
     ## SOLUTION

@@ -5,12 +5,10 @@ from math import sqrt
 
 
 def task1():
-    task_text = "Na dovolenou jedete autem po dálnici {t0} hodin rychlostí {v0} km.h-1. Potom na {t1} hodin zastavíte. Pokračujete {t2} hodin stálou rychlostí {v2} km.h-1 až do cíle. Určete průměrnou rychlost cestování (v km/h)."
-
     t0, t1, t2 = [round(uniform(1.0, 5.0), 1) for i in range(3)]
     v0, v2 = [randint(50, 130) for i in range(2)]
 
-    print(task_text.format(t0=t0, t1=t1, t2=t2, v0=v0, v2=v2))
+    print(f"Na dovolenou jedete autem po dálnici {t0} hodin rychlostí {v0} km.h-1. Potom na {t1} hodin zastavíte. Pokračujete {t2} hodin stálou rychlostí {v2} km.h-1 až do cíle. Určete průměrnou rychlost cestování (v km/h).")
     input()
 
     ## SOLUTION
@@ -27,12 +25,10 @@ def task1():
 
 
 def task2():
-    task_text = "Dálniční úsek má délku {s0} km. Největší povolená rychlost je {v0} km.hod-1. Řidič tento úsek projel za {t0} minut. Překročil největší povolenou rychlost na dálnici?"
-
     s0, v0 = [randint(50, 130) for i in range(2)]
     t0 = randint(10, 120)
 
-    print(task_text.format(s0=s0, v0=v0, t0=t0))
+    print(f"Dálniční úsek má délku {s0} km. Největší povolená rychlost je {v0} km.hod-1. Řidič tento úsek projel za {t0} minut. Překročil největší povolenou rychlost na dálnici?")
     input()
 
     ## SOLUTION
@@ -50,13 +46,11 @@ def task2():
 
 
 def task3():
-    task_text = "Volně padající těleso má v bodě A rychlost {vA} ms-1, v níže položeném bodě B rychlost {vB} ms-1. Zjistěte, za jaký čas proletí vzdálenost A->B. Jaká je vzdálenost bodů A a B? Jakou rychlostí těleso dopadne, pokud jeho pohyb z bodu B na zem trvá ještě {tToGround} s. Předpokládej, že g = 9.8"
-
     g = 9.8
     vA, tToB, tToGround = sorted([randint(1, 5) for i in range(3)])
     vB = round(vA + g * tToB, 2)
 
-    print(task_text.format(vA=vA, vB=vB, tToGround=tToGround))
+    print(f"Volně padající těleso má v bodě A rychlost {vA} ms-1, v níže položeném bodě B rychlost {vB} ms-1. Zjistěte, za jaký čas proletí vzdálenost A->B. Jaká je vzdálenost bodů A a B? Jakou rychlostí těleso dopadne, pokud jeho pohyb z bodu B na zem trvá ještě {tToGround} s. Předpokládej, že g = 9.8")
     input()
 
     ## SOLUTION
@@ -76,16 +70,14 @@ def task3():
 
 
 def task4():
-    task_text = "Plavec, jehož rychlost vzhledem na vodu je {v0} ms-1 plave v řece, v níž voda teče rychlostí {v1} ms-1. Určete čas, za který dopluje z místa A do B, vzdáleného {sAtoB} m, pokud plave:"
-    task_text += "\na) po proudu"
-    task_text += "\nb) proti proudu"
-    task_text += "\nc) kolmo na proud (vysledná rychlost je kolmá rychlosti proudu)"
-
     v0, v1 = sorted([round(uniform(0.1, 1), 1) for i in range(2)], reverse=True)
     v0 = v0 + 0.1 if v1 == v0 else v0
     sAtoB = randint(50, 150)
 
-    print(task_text.format(v0=v0, v1=v1, sAtoB=sAtoB))
+    print(f"Plavec, jehož rychlost vzhledem na vodu je {v0} ms-1 plave v řece, v níž voda teče rychlostí {v1} ms-1. Určete čas, za který dopluje z místa A do B, vzdáleného {sAtoB} m, pokud plave:")
+    print(f"\na) po proudu")
+    print(f"\nb) proti proudu")
+    print(f"\nc) kolmo na proud (vysledná rychlost je kolmá rychlosti proudu)")
     input()
 
     ## SOLUTION
@@ -104,12 +96,10 @@ def task4():
 
 
 def task5():
-    task_text = "Motorová loď plovoucí po řece projela vzdálenost {s0} m při plavbě po proudu za {t0}s, při plavbě proti proudu za {t1}s. Určitě rychlost loďky a proudu řeky"
-
     s0 = randint(100, 200)
     t0, t1 = sorted([randint(10, 30) for i in range(2)])
 
-    print(task_text.format(s0=s0, t0=t0, t1=t1))
+    print(f"Motorová loď plovoucí po řece projela vzdálenost {s0} m při plavbě po proudu za {t0}s, při plavbě proti proudu za {t1}s. Určitě rychlost loďky a proudu řeky")
     input()
 
     ## SOLUTION
@@ -137,12 +127,10 @@ def task5():
 
 
 def task6():
-    task_text = "Ze dvou míst vzdálených od sebe {s} km vyjely současně proti sobě auto a motocykl. Auto se pohybovalo rychlostí {vA} km/h a motocykl rychlostí {vM} km/h. Kdy a kde se potkají?"
-
     s = randint(40, 80)
     vA, vM = [randint(50, 100) for i in range(2)]
 
-    print(task_text.format(s=s, vA=vA, vM=vM))
+    print(f"Ze dvou míst vzdálených od sebe {s} km vyjely současně proti sobě auto a motocykl. Auto se pohybovalo rychlostí {vA} km/h a motocykl rychlostí {vM} km/h. Kdy a kde se potkají?")
     input()
 
     ## SOLUTION
@@ -158,13 +146,11 @@ def task6():
 
 
 def task7():
-    task_text = "Ze dvou míst M a P vzdálených od sebe {s} m se současně pohybují dvě tělesa rovnoměrným přímočarým pohybem stejným směrem. Těleso pohybující se z místa M má rychlost {vM} m/s a z místa P se těleso pohybuje rychlostí {vP} m/s. Za jaký čas dosáhne první těleso druhé? Jaké vzdálenosti urazí obě tělesa za tuto dobu?"
-
     s = randint(100, 500)
     vM, vP = sorted([randint(2, 10) for i in range(2)], reverse=True)
     vM = vM + 1 if vM == vP else vM
 
-    print(task_text.format(s=s, vM=vM, vP=vP))
+    print(f"Ze dvou míst M a P vzdálených od sebe {s} m se současně pohybují dvě tělesa rovnoměrným přímočarým pohybem stejným směrem. Těleso pohybující se z místa M má rychlost {vM} m/s a z místa P se těleso pohybuje rychlostí {vP} m/s. Za jaký čas dosáhne první těleso druhé? Jaké vzdálenosti urazí obě tělesa za tuto dobu?")
     input()
 
     ## SOLUTION
@@ -181,13 +167,11 @@ def task7():
 
 
 def task8():
-    task_text = "Autobus pohybující se rychlostí {v0} km/h zvyšuje svoji rychlost během {t} s se stálým zrychlením {a} m/s2. Jakou dráhu urazí za tuto dobu?"
-
     v0 = randint(50, 100)
     t = randint(5, 10)
     a = round(uniform(1, 4), 2)
 
-    print(task_text.format(v0=v0, t=t, a=a))
+    print(f"Autobus pohybující se rychlostí {v0} km/h zvyšuje svoji rychlost během {t} s se stálým zrychlením {a} m/s2. Jakou dráhu urazí za tuto dobu?")
     input()
 
     ## SOLUTION
@@ -202,11 +186,9 @@ def task8():
 
 
 def task9():
-    task_text = "Jak velké je zrychlení pohybu, při kterém těleso pohybující se ze stavu klidu urazí během {ts}. sekundy vzdálenost {ts} m"
-
     ts = randint(1, 10)
 
-    print(task_text.format(ts=ts))
+    print(f"Jak velké je zrychlení pohybu, při kterém těleso pohybující se ze stavu klidu urazí během {ts}. sekundy vzdálenost {ts} m")
     input()
 
     ## SOLUTION
@@ -218,12 +200,10 @@ def task9():
 
 
 def task10():
-    task_text = "Řidič automobilu začne brzdit, přičemž velikost brždění je {a} m.s-2, a než zastaví, urazí dráhu {s} m. Za jakou dobu zastavil a jaká byla jeho počáteční rychlost?"
-
     a = round(uniform(5, 10), 2)
     s = randint(30, 100)
 
-    print(task_text.format(a=a, s=s))
+    print(f"Řidič automobilu začne brzdit, přičemž velikost brždění je {a} m.s-2, a než zastaví, urazí dráhu {s} m. Za jakou dobu zastavil a jaká byla jeho počáteční rychlost?")
     input()
 
     ## SOLUTION
