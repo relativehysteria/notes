@@ -177,6 +177,9 @@ def task11():
     vf = randint(40, 70)
 
     print(f"Motor auta o tíze {mg} N má tažnou sílu {F} N. Za jaký čas může auto z klidu dosáhnout rychlost {vf} km/h? Odpor vzduchu a tření zanedbejte.")
+    input()
+
+    ## SOLUTION
 
     vf /= 3.6
 
@@ -184,6 +187,41 @@ def task11():
     t = round(vf / a, 1)
 
     print(f"t = {t} s")
+
+
+def task12():
+    m1 = randint(1, 10)
+    m2 = randint(1, 10)
+    g  = 9.8
+
+    print(f"Dvě tělesa o hmotnostech {m1} kg a {m2} kg jsou spojena vláknem přes kladku o zanedbatelné hmotnosti. První těleso je položeno na stole a druhé těleso je z kladky vyvěšeno dolů. Určete velikost zrychlení jednotlivých těles a velikost tahové síly, kterou je napínáno vlákno. Tření neuvažujeme.")
+    input()
+
+    ## SOLUTION
+
+    a = (m2 * g) / (m1 + m2)
+    F = m1 * a
+
+    print(f"a = {round(a, 1)} m/s")
+    print(f"F = {round(F, 1)} N")
+
+
+def task13():
+    m1 = randint(1, 5)
+    m2 = randint(6, 10)
+    d  = randint(1, 3)
+    g  = 9.8
+
+    print(f"Na pevné kladce visí 2 tělesa o hmotnosti {m1} kg a {m2} kg. Těleso o menší hmotnosti se nachází ve vzdálenosti {d} m pod tělesem o větší hmotnosti. Za jakou dobu budou obě tělesa ve stejné výšce?")
+    input()
+
+    ## SOLUTION
+
+    F = (m2 - m1) * g
+    a = F / (m1 + m2)
+    t = sqrt(d / a)
+
+    print(f"t = {round(t, 2)} s")
 
 
 # choose a random task and execute it
