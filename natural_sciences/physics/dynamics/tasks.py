@@ -171,10 +171,10 @@ def task10():
 
 
 def task11():
-    mg = 10000
-    F = 1600
-    vf = 54
     g = 9.8
+    mg = randint(8, 12) * 1000 * g
+    F = randint(10, 18) * 1000
+    vf = randint(40, 70)
 
     print(f"Motor auta o tíze {mg} N má tažnou sílu {F} N. Za jaký čas může auto z klidu dosáhnout rychlost {vf} km/h? Odpor vzduchu a tření zanedbejte.")
 
