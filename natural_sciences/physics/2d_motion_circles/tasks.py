@@ -100,7 +100,7 @@ def task6():
     # a = v^2/r = g
     g = 9.8
     v = round(sqrt(r * g), 1)
-    print(f"v = {v} km = {v * 3.6} m/s")
+    print(f"v = {v} km = {round(v * 3.6, 2)} m/s")
 
 
 def task7():
@@ -123,5 +123,6 @@ def task7():
 
 
 # choose a random task and execute it
-task = choice([t for t in locals().keys() if t.startswith('task')])
-locals()[task]()
+if __name__ == "__main__":
+    task = choice([t for t in locals().keys() if t.startswith('task')])
+    locals()[task]()

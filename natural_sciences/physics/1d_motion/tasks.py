@@ -220,5 +220,6 @@ def task10():
 
 
 # choose a random task and execute it
-task = choice([t for t in locals().keys() if t.startswith('task')])
-locals()[task]()
+if __name__ == "__main__":
+    task = choice([t for t in locals().keys() if t.startswith('task')])
+    locals()[task]()

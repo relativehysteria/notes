@@ -95,6 +95,98 @@ def task5():
     print(f"minimum force required to move: {min_static} N")
     print(f"kinetic force: {kinetic} N")
 
+
+def task6():
+    print("Tělesu o hmotnosti m uděluje síla o velikosti F zrychlení 2 m/s^2. Jak velké zrychlení uděluje témuž tělesu síla o velikosti a) 4F, b) F/4?")
+    input()
+
+    print("a) 8 m/s^2")
+    print("b) 0.5 m/s^2")
+
+
+def task7():
+    print("Tělesu o hmotnosti m uděluje síla o velikosti F zrychlení 2 m/s^2. Jak velké zrychlení uděluje stejně velká síla tělesu o hmotnosti a) 4m, b) m/4?")
+    input()
+
+    print("a) 0.5 m/s^2")
+    print("b) 8 m/s^2")
+
+
+def task8():
+    t  = randint(5, 20)
+    d  = randint(10, 100)
+    m  = randint(60, 90)
+    Fr = randint(1, 20)
+
+    print(f"Cyklista ujel při rozjíždění z klidu za {t} s vzdálenost {d} m. Jak velkou stálou sílu svým šlapáním vyvíjel, musel-li současně překonávat odporové síly o velikosti {Fr} N? Hmotnost cyklisty včetně kola je {m} kg.")
+    input()
+
+    ## SOLUTION
+
+    # a = delta v / t
+    # d / t = (vf + v0) / 2
+    # delta v = 2d / t
+    a = (2 * d) / t**2
+    F = round(m * a + Fr, 2)
+
+    print(f"F = {F} N")
+
+
+def task9():
+    m  = randint(10, 14) * 100
+    v0 = randint(50, 70)
+    vf = randint(75, 100)
+    t  = randint(5, 20)
+
+    print(f"Automobil o hmotnosti {m} kg zvětšil rychlost ze {v0} km/h na {vf} km/h za dobu {t} s. a) Jak velká síla tuto změnu rychlosti způsobila? b) Jakou vzdálenost při zvětšující se rychlosti automobil urazil?")
+    input()
+
+    ## SOLUTION
+
+    v0 /= 3.6
+    vf /= 3.6
+
+    d = int(round(t * ((v0 + vf) / 2), 2))
+    a = (vf - v0) / t
+    F = int(round(m * a, 2))
+
+    print(f"a) F = {F} N")
+    print(f"b) d = {d} m")
+
+
+def task10():
+    m = randint(200, 500)
+    F = randint(200, 250)
+    t = 0.01
+
+    print(f"Hráč vykopl míč o hmotnosti {m} g silou {F} N. Jak velkou rychlost bude mít míč při opuštění kopačky, jestliže na něj působila nárazová síla po dobu {t} s? Předpokládejte, že míč byl před vykopnutím v klidu.")
+    input()
+
+    ## SOLUTION
+
+    m /= 1000
+    v = round((F * t) / m, 1)
+
+    print(f"v = {v} m/s")
+
+
+def task11():
+    mg = 10000
+    F = 1600
+    vf = 54
+    g = 9.8
+
+    print(f"Motor auta o tíze {mg} N má tažnou sílu {F} N. Za jaký čas může auto z klidu dosáhnout rychlost {vf} km/h? Odpor vzduchu a tření zanedbejte.")
+
+    vf /= 3.6
+
+    a = F / (mg / g)
+    t = round(vf / a, 1)
+
+    print(f"t = {t} s")
+
+
 # choose a random task and execute it
-task = choice([t for t in locals().keys() if t.startswith('task')])
-locals()[task]()
+if __name__ == "__main__":
+    task = choice([t for t in locals().keys() if t.startswith('task')])
+    locals()[task]()
