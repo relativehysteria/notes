@@ -50,6 +50,8 @@ třetí zákon jsou rovnocenné síly na více než jednom objektu. síla na obj
 
 síla = $F = m a$ (akcelerace muze byt gravitacni zrychleni)
 
+impuls síly je síla vynásobena t = $F = m \frac{v}{t} => F \delta t = m v$
+
 vzdycky si secti vsechny sily a nezapomen na koeficient treni
 
 pro dostredivou silu: $a_c = \frac{v^2}{r} = \frac{\sum F}{m}$
