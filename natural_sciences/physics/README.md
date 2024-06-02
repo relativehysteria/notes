@@ -3,3 +3,4 @@
 3. [motion in 2 dimensions (circles)](./2d_motion_circles/README.md)
 4. [dynamics](./dynamics/README.md)
 5. [energy](./energy/README.md)
+6. [momentum](./momentum/README.md)
