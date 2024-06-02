@@ -101,6 +101,50 @@ def task5():
     print(f"W = {W} J")
 
 
+def task6():
+    eta = randint(90, 99)
+    m = randint(200, 300)
+    h = randint(20, 40)
+    t = randint(60, 120)
+    g = 9.8
+
+    print(f"Motor výtahu zvedne rovnoměrným pohybem náklad s hmotností {m} kg do výšky {h} m za {t} s.\na) Jaký je výkon motoru?\nb) Jaký je jeho příkon, pokud je jeho účinnost {eta}%?")
+    input()
+
+    ## SOLUTION
+
+    eta /= 100
+
+    # W = F d
+    # W/t = F v = m g h/t
+    # W/t = m * g * h / t
+    Wt = round(m * g * h / t, 2)
+    P  = round(Wt / eta, 2)
+
+    print(f"a) {Wt} W")
+    print(f"b) {P} W")
+
+
+def task7():
+    m = randint(11, 16) / 10
+    t = randint(1, 9) / 10
+    Wt = randint(20, 24)
+
+    print(f"Automobil o hmotnosti {m}t se rozjížděl {t} minuty při stálém výkonu {Wt} kW. Jak velké rychlosti dosáhl?")
+    input()
+
+    ## SOLUTION
+
+    m  *= 1000
+    t  *= 60
+    Wt *= 1000
+
+    # Wt = (m * v**2) / 2 * t
+    v = sqrt(2 * Wt * t / m)
+    v = round(v * 3.6, 2)
+    print(f"v = {v} km/h")
+
+
 # choose a random task and execute it
 if __name__ == "__main__":
     task = choice([t for t in locals().keys() if t.startswith('task')])
