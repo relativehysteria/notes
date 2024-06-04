@@ -47,9 +47,9 @@ def task2():
 
 
 def task3():
-    m1 = 500
-    m2 = 2
-    v2 = 200
+    m1 = randint(4, 6) * 100
+    m2 = randint(2, 10)
+    v2 = randint(15, 25) * 10
     alpha = randint(20, 50)
 
     print(f"Consider a wheeled, {m1}kg cannon firing a {m2}kg ball horizontally from a ship. The ball leaves the cannon at {v2}m/s. At what speed does the cannon recoil as a result? What would its speed be, if the ball was fired at a {alpha} degree angle?")
