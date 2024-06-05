@@ -4,3 +4,4 @@
 4. [dynamics](./dynamics/README.md)
 5. [energy](./energy/README.md)
 6. [momentum](./momentum/README.md)
+7. [torque](./torque/README.md)
