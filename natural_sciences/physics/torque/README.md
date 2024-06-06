@@ -20,6 +20,14 @@ using torque, one can derive angular acceleration like so:
 3. $\tau = rma_t$
 4. $\tau = r m r \alpha$
 5. $\tau = r^2 m \alpha$
-6. $\alpha = \frac{\tau}{r^2 m}$
+6. $\alpha = \frac{\tau}{mr^2}$
 
-so, angular acceleration is $\alpha = \frac{\sum \tau}{m r^2}$
+so, angular acceleration is $\alpha = \frac{\sum \tau}{\sum m r^2}$
+
+that is to say: since in normal acceleration, $\frac{F}{m}$, the mass acts as
+inertia, in this case, $m r^2$ is _rotational inertia_. you can use this knowledge
+to derive the formula for rotational/angular kinetic energy: if kinetic energy is
+$\frac{mv^2}{2}$, where mass is the inertia, if you replace the inertia with
+rotational inertia and the velocity with angular velocity, you get $\frac{mr^2 \omega^2}{2}$
+
+so, rotational kinetic energy is $\frac{mr^2 \omega^2}{2}$

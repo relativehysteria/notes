@@ -107,6 +107,30 @@ def task5():
     print(f"tau = {round(tau, 2)} N*m")
 
 
+def task6():
+    f = [randint(1, 100) for i in range(randint(2, 5))]
+    m = [randint(1, 10) for i in range(len(f))]
+
+    print(f"A plank rotates around its axis, being anchored to it with one side. There are {len(f)} masses applying forces on the plank, each 1 meter farther (starting at 1m from the center). What is the plank's angular acceleration?")
+    print(f"\nThe masses and the forces:")
+
+    for (i, j) in zip(m, f):
+        print(f"{i:>2}kg {j:>3}N")
+
+    input()
+
+    ## SOLUTION
+
+    tau =     sum([((i+1) * F) for (i, F) in enumerate(f)])
+    inertia = sum([((i+1)**2 * m) for (i, m) in enumerate(m)])
+    alpha = round(tau / inertia, 2)
+
+    print(f"alpha = {alpha} rad/s^2")
+
+
+# TODO: task7(): rotational and kinetic energy at once
+
+
 # choose a random task and execute it
 if __name__ == "__main__":
     task = choice([t for t in locals().keys() if t.startswith('task')])
