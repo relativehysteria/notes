@@ -63,7 +63,7 @@ def task3():
     v1 = (m2 * v2) / m1
     v1alpha = round((m2 * (v2 * cos(alpha))) / m1, 2)
 
-    print(f"v = {v1} m/s")
+    print(f"v = {round(v1, 2)} m/s")
     print(f"tilted v = {v1alpha} m/s")
 
 

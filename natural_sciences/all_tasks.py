@@ -60,9 +60,12 @@ class Tasks:
 tasks = Tasks(Path(path.dirname(path.realpath(__file__))))
 
 if __name__ == "__main__":
+    n_tasks = sum([len(i) for i in tasks.tasks.values()])
+    print(f"Loaded {n_tasks} tasks.")
+
     while True:
+        print('-' * 80)
         task = tasks.pop_random()
         if task is None:
             break
         task()
-        print('------------------------------------\n')
