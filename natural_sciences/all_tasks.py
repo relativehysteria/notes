@@ -12,7 +12,7 @@ def walkpath(dir_path):
     for file in dir_path.iterdir():
         if file.is_dir():
             files += walkpath(file)
-        elif str(file).endswith("tasks.py"):
+        elif str(file).endswith("tasks.py") and str(file) != __file__:
             files.append(file)
     return files
 
@@ -57,12 +57,12 @@ class Tasks:
         idx = randint(0, len(self.tasks[tasks]) - 1)
         return self.tasks[tasks].pop(idx)
 
-
 tasks = Tasks(Path(path.dirname(path.realpath(__file__))))
 
-while True:
-    task = tasks.pop_random()
-    if task is None:
-        break
-    task()
-    print('------------------------------------\n')
+if __name__ == "__main__":
+    while True:
+        task = tasks.pop_random()
+        if task is None:
+            break
+        task()
+        print('------------------------------------\n')
