@@ -22,7 +22,7 @@ using torque, one can derive angular acceleration like so:
 5. $\tau = r^2 m \alpha$
 6. $\alpha = \frac{\tau}{mr^2}$
 
-so, angular acceleration is $\alpha = \frac{\sum \tau}{\sum m r^2}$
+so, angular acceleration is $\alpha = \frac{\sum \tau_i}{\sum m_i r_i^2}$
 
 that is to say: since in normal acceleration, $\frac{F}{m}$, the mass acts as
 inertia, in this case, $m r^2$ is _rotational inertia_. you can use this knowledge
