@@ -21,3 +21,5 @@ using torque, one can derive angular acceleration like so:
 4. $\tau = r m r \alpha$
 5. $\tau = r^2 m \alpha$
 6. $\alpha = \frac{\tau}{r^2 m}$
+
+so, angular acceleration is $\alpha = \frac{\sum \tau}{m r^2}$
