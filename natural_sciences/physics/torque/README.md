@@ -31,3 +31,6 @@ $\frac{mv^2}{2}$, where mass is the inertia, if you replace the inertia with
 rotational inertia and the velocity with angular velocity, you get $\frac{mr^2 \omega^2}{2}$
 
 so, rotational kinetic energy is $\frac{mr^2 \omega^2}{2}$
+
+angular momentum is $m v_t r$, where tangential velocity can be replaced with
+$\omega r$, therefore, angular momentum is $m \omega r^2$
