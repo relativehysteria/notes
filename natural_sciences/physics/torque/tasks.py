@@ -129,6 +129,24 @@ def task6():
 
 
 # TODO: task7(): rotational and kinetic energy at once
+def task7():
+    v = randint(10, 30)
+    freq = randint(1, 10)
+    r = randint(3, 4) / 10
+    m = randint(2, 4) / 10
+
+    print(f"A baseball weighing {m} kg is travelling through the air at {v} m/s. Its diameter is {r*2}m and it is rotating {freq}x/s. What is its total kinetic energy?")
+    input()
+
+    ## SOLUTION
+
+    Kt = (m * v**2) / 2
+    Kr = (m * r**2 * radians(360 * freq)**2) / 2
+    K = round(Kt + Kr, 2)
+    breakpoint()
+
+    print(f"K = {K} J")
+
 
 
 # choose a random task and execute it
