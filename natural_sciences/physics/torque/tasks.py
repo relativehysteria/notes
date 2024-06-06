@@ -128,7 +128,6 @@ def task6():
     print(f"alpha = {alpha} rad/s^2")
 
 
-# TODO: task7(): rotational and kinetic energy at once
 def task7():
     v = randint(10, 30)
     freq = randint(1, 10)
