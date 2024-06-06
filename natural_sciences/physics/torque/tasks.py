@@ -69,6 +69,44 @@ def task3():
     print(f"force required on the right side is: {-req_f_right:>8} N")
 
 
+def task4():
+    m_box = randint(1, 5)
+    d_box = randint(1, 2)
+    m_table = randint(1, 5)
+    g = 9.8
+
+    print(f"In 2nd dimension, a box weighing {m_box}kg is sitting on a table, {d_box}m away from the center. Weight of the table at its center of mass is {m_table}. Legs of the table are 3m away from the center. What forces are the legs exerting on the table?")
+    input()
+
+    ## SOLUTION
+
+    g_box = m_box * g
+    g_table = m_table * g
+
+    # consider the left leg the pivot. the opposing forces must be equal, therefore
+    # f_r * 6 = 3 * g_table + (3 - d_box) * g_box
+    f_r = ((3 * g_table) + ((3 - d_box) * g_box)) / 6
+    f_l = (3 * g_table) + ((3 - d_box) * g_box) - f_r
+
+    print(f"Left leg = {round(f_l, 2)} N")
+    print(f"Right leg = {round(f_r, 2)} N")
+
+
+def task5():
+    d = randint(1, 10)
+    a = randint(20, 40)
+    f = randint(10, 50)
+
+    print(f"A plank rotates around its center. A force of {f} N is applied to it {d}m from its center at a {a} degree angle (pointing away from the center). What is the plank's torque?")
+    input()
+
+    ## SOLUTION
+
+    tau = f * sin(radians(a)) * d
+
+    print(f"tau = {round(tau, 2)} N*m")
+
+
 # choose a random task and execute it
 if __name__ == "__main__":
     task = choice([t for t in locals().keys() if t.startswith('task')])
