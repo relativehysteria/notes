@@ -1,7 +1,3 @@
-# "a ty si myslíš, že doktoři umí derivace?"
-
-přijímačky na medmuni
-
 ## Fyzika
 
 * Fyzikální veličiny a jejich jednotky. Soustava jednotek SI. Dílčí a násobné
