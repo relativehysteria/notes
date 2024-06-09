@@ -5,3 +5,4 @@
 5. [energy](./energy/README.md)
 6. [momentum](./momentum/README.md)
 7. [torque](./torque/README.md)
+8. [oscillations and mechanical waves](./oscillations/README.md)
