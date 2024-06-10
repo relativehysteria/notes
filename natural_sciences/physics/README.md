@@ -1,3 +1,6 @@
+TODO: [this](https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)),
+expecially the excercises :)
+
 1. [SI units](./units/README.md)
 2. [motion in 1 dimension](./1d_motion/README.md)
 3. [motion in 2 dimensions (circles)](./2d_motion_circles/README.md)
