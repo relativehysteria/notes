@@ -5,6 +5,7 @@ from math import sqrt, pi, sin, cos, radians
 
 
 def task1():
+    # TODO: practice graphically building functions for various waves
     pass
 
 
