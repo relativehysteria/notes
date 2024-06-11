@@ -24,21 +24,27 @@ constant (how 'stiff' the spring is) and $x$ is the displacement from the
 equilibrium.
 
 in a pendulum, the restoring force is provided by gravity. an analogy to the
-spring constant therefore results in the following equation: $k = \frac{mg}{r}$,
-where $r$ is the length of the pendulum (sometimes written as $L$ -- here
-written as $r$ because it is pretty much is the radius of a circle).
+spring constant therefore results in the following equation: $k = \frac{mg}{L}$,
+where $L$ is the length of the pendulum.
 replacing the spring constant with the pendulum equivalent therefore results
-in the following equation for pendulums: $F = -\frac{mg}{r} x$
+in the following equation for pendulums: $F = -\frac{mg}{L} x$
 
 __amplitude does not affect the period at all__. imagine gain pedals :^)
 
 __mass does__; formula for the period given mass is $T = 2 \pi \sqrt{\frac{m}{k}}$.
 
 for a pendulum, that would be
-$T = 2 \pi \sqrt{\frac{m}{\frac{mg}{r}}} = 2 \pi \sqrt{\frac{r}{g}}$
+$T = 2 \pi \sqrt{\frac{m}{\frac{mg}{L}}} = 2 \pi \sqrt{\frac{r}{L}}$
 
 calculus is required to derive this formula, so either:
 1. remember it
 2. forget it
 3. derive it (which would be too complicated and time consuming for entrance
    exams, so literally just choose either of the other two)
+
+## takeaway
+
+1. $x(t) = A \cos(\omega t + \varphi)$
+2. $F = -kx$
+3. for pendulums; $k = \frac{mg}{L}$
+4. amplitude doesn't affect the period, mass does: $T = 2 \pi \sqrt{\frac{m}{k}}$

@@ -3,9 +3,11 @@
 from random import uniform, randint, choice
 from math import sqrt, pi, sin, cos, radians
 
+# TODO:
+#  * practice graphically building functions for various waves
+#  * practice deriving the formulae
 
 def task1():
-    # TODO: practice graphically building functions for various waves
     pass
 
 
