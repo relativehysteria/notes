@@ -60,7 +60,7 @@ calculus is required to derive these equations, so either:
 
 ## takeaway
 
-1. $x(t) = A \cos(\omega t + \varphi) || \theta (t) = \theta_{max} \cos(\omega t + \varphi)$
-2. $T = 2 \pi \sqrt{\frac{m}{k}} || T = 2 \pi \sqrt{\frac{L}{g}}$
-3. $F = -kx$
-4. for pendulums; $k = \frac{mg}{L}$
+1. $x(t) = A \cos(\omega t + \varphi) \iff \theta (t) = \theta_{max} \cos(\omega t + \varphi)$
+2. $F = -kx$
+3. for pendulums; $k = \frac{mg}{L}$
+4. $T = 2 \pi \sqrt{\frac{m}{k}} \iff T = 2 \pi \sqrt{\frac{L}{g}}$
