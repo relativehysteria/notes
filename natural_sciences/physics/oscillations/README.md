@@ -23,7 +23,7 @@ using this information, one can substitute $\cos(\varphi)$ for:
 
 position from the equilibrium is not all that important, so the displacement
 function uses $\theta$ instead of $x$;
-$\theta (t) = \theta_max cos(\omega t + \varphi)$
+$\theta (t) = \theta_{max} cos(\omega t + \varphi)$
 
 ### restoring force
 
@@ -61,7 +61,7 @@ calculus is required to derive these equations, so either:
 ## takeaway
 
 1. $x(t) = A \cos(\omega t + \varphi)$
-   OR $\theta (t) = \theta_max \cos(\omega t + \varphi)$
+   OR $\theta (t) = \theta_{max} \cos(\omega t + \varphi)$
 2. $T = 2 \pi \sqrt{\frac{m}{k}}$ OR $T = 2 \pi \sqrt{\frac{L}{g}}$
 3. $F = -kx$
 4. for pendulums; $k = \frac{mg}{L}$
