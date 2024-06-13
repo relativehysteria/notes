@@ -44,8 +44,8 @@ in the following equation for pendulums: $F = -\frac{mg}{L} x$
 amplitude doesn't affect the period at all (imagine gain pedals).
 
 period formulae go like so:
-1. for the spring: $T = 2 \pi \sqrt{\frac{m}{k}}$.
-2. for the pendulum: $k = \frac{mg}{L} \implies T = 2 \pi \sqrt{\frac{m}{\frac{mg}{L}}} = 2 \pi \sqrt{\frac{L}{g}}$
+1. for the spring: $T = \underline{2 \pi \sqrt{\frac{m}{k}}}$.
+2. for the pendulum: $k = \frac{mg}{L} \implies T = 2 \pi \sqrt{\frac{m}{\frac{mg}{L}}} = \underline{2 \pi \sqrt{\frac{L}{g}}}$
 
 given these equations, one can see that the period is affected by:
 1. for the spring, _the mass_ and the _spring constant_
@@ -59,7 +59,7 @@ calculus is required to derive these equations, so either:
 
 ## takeaway
 
-1. $x(t) = A \cos(\omega t + \varphi) \iff \theta (t) = \theta_{max} \cos(\omega t + \varphi)$
+1. $\underline{x(t) = A \cos(\omega t + \varphi)} \iff \theta (t) = \theta_{max} \cos(\omega t + \varphi)$
 2. $F = -kx$
 3. for pendulums; $k = \frac{mg}{L}$
-4. $T = 2 \pi \sqrt{\frac{m}{k}} \iff T = 2 \pi \sqrt{\frac{L}{g}}$
+4. $\underline{T = 2 \pi \sqrt{\frac{m}{k}}} \iff T = 2 \pi \sqrt{\frac{L}{g}}$
