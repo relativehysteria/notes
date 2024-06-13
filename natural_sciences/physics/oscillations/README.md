@@ -45,7 +45,7 @@ amplitude doesn't affect the period at all (imagine gain pedals).
 
 period formulae go like so:
 1. for the spring: $T = 2 \pi \sqrt{\frac{m}{k}}$.
-2. for the pendulum: $ k = \frac{mg}{L} \implies T = 2 \pi \sqrt{\frac{m}{\frac{mg}{L}}} = 2 \pi \sqrt{\frac{L}{g}}$
+2. for the pendulum: $k = \frac{mg}{L} \implies T = 2 \pi \sqrt{\frac{m}{\frac{mg}{L}}} = 2 \pi \sqrt{\frac{L}{g}}$
 
 given these equations, one can see that the period is affected by:
 1. for the spring, _the mass_ and the _spring constant_
