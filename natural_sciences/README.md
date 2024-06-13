@@ -1,3 +1,11 @@
+the total amount of openstax science chapters is 187
+1. physics = 34
+2. chemistry = 21
+3. organic chemistry = 31
+4. biology = 47
+5. microbiology = 26
+6. anatomy and physiology = 28
+
 ## Fyzika
 
 * Fyzikální veličiny a jejich jednotky. Soustava jednotek SI. Dílčí a násobné
