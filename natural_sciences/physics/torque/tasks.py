@@ -142,7 +142,6 @@ def task7():
     Kt = (m * v**2) / 2
     Kr = (m * r**2 * radians(360 * freq)**2) / 2
     K = round(Kt + Kr, 2)
-    breakpoint()
 
     print(f"K = {K} J")
 
