@@ -1,5 +1,6 @@
-TODO: [this](https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)),
-expecially the excercises :)
+TODO: 
+* [this](https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)), expecially the excercises :)
+* mathematical converts; i.e. "Turn $x(t) = A \cos{\omega t + \varphi}$ into a function of $\theta$"
 
 1. [SI units](./units/README.md)
 2. [motion in 1 dimension](./1d_motion/README.md)
