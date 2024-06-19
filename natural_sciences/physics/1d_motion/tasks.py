@@ -4,6 +4,17 @@ from random import uniform, randint, choice
 from math import sqrt
 
 
+def task_conceptual1():
+    print("If you throw a rock directly at a coconut hanging on a branch and miss it, but rock manages to hit it on the way back, does it strike the coconut with higher or lower velocity?")
+    input()
+
+    ## SOLUTION
+    # Given constant acceleration (here g=9.8) in the negative direction of the
+    # movement, the speed at a given coordinate will always be the same
+
+    print("It strikes the coconut with the same velocity")
+
+
 def task1():
     t0, t1, t2 = [round(uniform(1.0, 5.0), 1) for i in range(3)]
     v0, v2 = [randint(50, 130) for i in range(2)]

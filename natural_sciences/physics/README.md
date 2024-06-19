@@ -3,10 +3,11 @@ TODO:
 * mathematical converts; i.e. "Turn $x(t) = A \cos(\omega t + \varphi)$ into a function of $\theta$"
 
 1. [SI units](./units)
-2. [motion in 1 dimension](./1d_motion)
-3. [motion in 2 dimensions (incl. circular motion and gravitation)](./2d_motion_circles)
+2. [kinematics](./1d_motion)
+3. [two dimensional kinematics](./2d_motion)
 4. [dynamics](./dynamics)
-5. [energy](./energy)
-6. [momentum](./momentum)
-7. [torque](./torque)
-8. [oscillations and mechanical waves](./oscillations)
+5. [circular motion](./circular_motion)
+6. [energy](./energy)
+7. [momentum](./momentum)
+8. [torque](./torque)
+9. [oscillations and mechanical waves](./oscillations)
