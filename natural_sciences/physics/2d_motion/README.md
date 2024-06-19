@@ -2,8 +2,8 @@ multidimensional kinematics is just vectors
 
 ex. velocity vector of magnitude 50 under a 30 degree angle has the following
 components:
-1. $v_x = 50 * cos(30^{\circ})$
-2. $v_y = 50 * sin(30^{\circ})$
+1. $v_x = 50 cos(30^{\circ})$
+2. $v_y = 50 sin(30^{\circ})$
 
 horizontal and vertical velocities/accelerations only ever apply to their vector
 component; gravity ONLY ever changes the vertical velocity, therefore 
