@@ -11,4 +11,4 @@ two objects with the same vertical velocity fall on the ground at the same time,
 even if one had a greater total velocity (because of greater horizontal velocity).
 
 the range of a projectile on level ground for which air resistance is negligible
-is given by $\Delta x = \frac{v_0^2 sin(2 \theta_0)}{g}$
+is given by $\Delta x = \frac{v_0^2 sin(2 \theta_0)}{g}$.
