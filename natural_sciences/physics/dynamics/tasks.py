@@ -224,7 +224,28 @@ def task13():
     print(f"t = {round(t, 2)} s")
 
 
+def task14():
+    m = randint(50, 80)
+    angle = randint(5, 20)
+    g = 9.8
+
+    print(f"A person (m = {m} kg) is standing on a wire. The wire is bent at a {angle} degree angle. What is the tension in the wire?")
+    input()
+
+    ## SOLUTION
+    # calculate the weight of the person. because they're supported by the
+    # wire on both sides, their effective weight is halved
+    F = (m * g) / 2
+
+    # weight is the vertical component; tension is the hypotenuse,
+    # so T * sin(radians(angle)) = m * g / 2
+    T = F / sin(radians(angle))
+
+    print(f"T = {round(T, 2)} N")
+
+
 # choose a random task and execute it
 if __name__ == "__main__":
     task = choice([t for t in locals().keys() if t.startswith('task')])
-    locals()[task]()
+    #locals()[task]()
+    task14()
