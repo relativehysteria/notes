@@ -53,5 +53,3 @@ síla = $F = m a$ (akcelerace muze byt gravitacni zrychleni)
 impuls síly je síla vynásobena t = $F = m \frac{v}{t} => F \Delta t = m v$ == Force on object multiplied by time duration during which the force is acting.
 
 vzdycky si secti vsechny sily a nezapomen na koeficient treni
-
-pro dostredivou silu: $a_c = \frac{v^2}{r} = \frac{\sum F}{m}$

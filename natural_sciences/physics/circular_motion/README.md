@@ -45,6 +45,25 @@ angular acceleration, its tangential acceleration is 0. however, any object
 moving on a circle is _always_ centripetally accelerating, because it is always
 turning.
 
+### Gravitation
+
+given by the inverse root of distance between two objects;
+$F_g = G \frac{m_1 m_2}{r^2}$, where
+
+1. $F_g$ is the gravitational force
+2. $G$ is the newton constant (gravitational constant throughout the universe)
+3. $m_1$ and $m_2$ are the masses of the objects we're measuring
+4. $r^2$ is the distance between them
+
+one can calculate the gravitational acceleration on (or mass of) earth by using
+_any_ object.
+
+1. $m_{obj} g = G \frac{m_{obj} m_{earth}}{r^2}$
+2. divide by $m_{obj}$
+3. $g = G \frac{m_{earth}}{r^2}$
+4. to solve for $m_{earth}$, rearrange the equation
+5. $m_{earth} = \frac{g r^2}{G}$
+
 ## simple reasoning
 
 essentially, remember this:
@@ -57,3 +76,4 @@ essentially, remember this:
    arc velocity = $r \omega$, arc/tangential acceleration = $r \alpha$)
 6. centripetal acceleration = $\frac{v^2}{r}$
 7. $v = \frac{s}{t} = \frac{2 \pi r}{T} = 2 \pi r f$
+8. $F_g = G \frac{m_1 m_2} {r^2}$

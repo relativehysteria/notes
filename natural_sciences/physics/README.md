@@ -6,7 +6,7 @@ TODO:
 2. [kinematics](./1d_motion)
 3. [two dimensional kinematics](./2d_motion)
 4. [dynamics](./dynamics)
-5. [circular motion](./circular_motion)
+5. [circular motion and gravitation](./circular_motion)
 6. [energy](./energy)
 7. [momentum](./momentum)
 8. [torque](./torque)
