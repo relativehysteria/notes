@@ -1,6 +1,6 @@
-work/práce = energy transferred by force; $Work = Force \times distance \times \cos \theta$. unit is newton-meter, or joule.  
+work/práce = energy transferred by force; $Work = Force \cdot distance \cdot \cos \theta$. unit is newton-meter, or joule.  
 energy = ability to do work  
-power/výkon = the rate at which work is done; $P = \frac{W}{t} = F \times v \times \cos \theta$. unit is watt (joule per second).  
+power/výkon = the rate at which work is done; $P = \frac{W}{t} = F \cdot v \cdot \cos \theta$. unit is watt (joule per second).  
 input power/příkon = dodaná energie stroji za dobu t  
 efficiency/účinnost = poměr příkonu a výkonu (kolik energie se ztratí); $\eta = \frac{výkon}{příkon}$ výsledek je v procentech
 
