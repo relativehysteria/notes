@@ -28,3 +28,10 @@ potential energy on earth. the more accurate equation following the
 gravitational distance relationship would be the integration of gravitational
 force with respect to $r$:
 $PE_g = -\int_{\infty}^{r} (G \frac{m_1 m_2}{r^2}) dr = \underline{-(G \frac{m_1 m_2}{r})}$
+
+potential energy is based on hooke's law $F = k \Delta x$
+($k$ is a spring constant and $x$ is the length of deformation).
+the force increases linearly from 0 at the start to $kx$ in the fully stretched
+position. the average force is $\frac{kx_i + kx_f}{2}$, which for $kx_i = 0$
+is $\frac{kx_f}{2}$. given $W = Fx$, potential energy of a string is therefore
+$PE = Fx = \frac{kx}{2} x = \frac{kx^2}{2}$.
