@@ -16,3 +16,15 @@ it towards the ground. the object has a potential energy equal to the work gravi
 if you hold something on a depressed spring and let go of it and the spring pushes it,
 the potential energy of the object while it is standing on the depressed spring
 is equal to the work that will be done when the spring pushes the object.
+
+the gravitational potential energy in a uniform gravitational field is
+$\Delta PEg = m g \Delta h$.
+
+although no real gravitational field is ever uniform
+($F_g = G \frac{m_1 m_2}{r^2}$ -- $F_g$ gets smaller with rising $r$), 
+small enough distances from massive enough objects don't have a very noticable
+effect, so the equation can be usually used for calculating the gravitational 
+potential energy on earth. the more accurate equation following the
+gravitational distance relationship would be the integration of gravitational
+force with respect to $r$:
+$PE_g = -\int_{\infty}^{r} (G \frac{m_1 m_2}{r^2}) dr = \underline{-(G \frac{m_1 m_2}{r})}$
