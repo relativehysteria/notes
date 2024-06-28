@@ -4,7 +4,11 @@ power/výkon = the rate at which work is done; $P = \frac{W}{t} = F \times v \ti
 input power/příkon = dodaná energie stroji za dobu t  
 efficiency/účinnost = poměr příkonu a výkonu (kolik energie se ztratí); $\eta = \frac{výkon}{příkon}$ výsledek je v procentech
 
-kinetic energy is $K = \frac{mv^2}{2}$. unit is also joule.
+kinetic energy is $K = \frac{mv^2}{2}$. unit is also joule
+
+the work-energy theorem equates
+$W_{net} = KE_f - KE_i = \frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2$ -- this is true
+even for work done by forces of different magnitude and direction.
 
 'potential energy' is the work that can be potentially done.
 i.e. if you hold something above the ground and you let go of it, gravity will pull
