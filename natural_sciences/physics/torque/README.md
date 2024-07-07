@@ -5,7 +5,11 @@ around the center of its mass.
 
 formula for the center of mass is $X = \frac{\displaystyle \sum m_i x_i}{\displaystyle \sum m_i}$.
 
-formula for torque is $\tau = F d$, unit is _Newton-meter_.
+formula for torque is $\tau = F r$, unit is _Newton-meter_. more generally,
+since we only care about the force that is perpendicular to the center of mass,
+or the pivot, if the force is applied at an angle, a $\sin$ function will reveal
+the perpendicular component. that is, the equation in its more general form
+is $\tau = F r \sin{\theta}$
 
 altough the equation is the same as work,
 it _isn't_ work -- work is force applied over distance in the same direction $d$
