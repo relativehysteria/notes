@@ -29,7 +29,7 @@ using torque, one can derive angular acceleration like so:
 so, angular acceleration is $\alpha = \frac{\sum \tau_i}{\sum m_i r_i^2}$
 
 that is to say: since in normal acceleration, $\frac{F}{m}$, the mass acts as
-inertia, in this case, $m r^2$ is _rotational inertia a disc_. you can use this knowledge
+inertia, in this case, $m r^2$ is _rotational inertia of a disc_. you can use this knowledge
 to derive the formula for rotational/angular kinetic energy: if kinetic energy is
 $\frac{mv^2}{2}$, where mass is the inertia, if you replace the inertia with
 rotational inertia and the velocity with angular velocity, you get $\frac{mr^2 \omega^2}{2}$
