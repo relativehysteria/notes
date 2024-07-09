@@ -134,13 +134,16 @@ def task7():
     r = randint(3, 4) / 10
     m = randint(2, 4) / 10
 
-    print(f"A baseball weighing {m} kg is travelling through the air at {v} m/s. Its diameter is {r*2}m and it is rotating {freq}x/s. What is its total kinetic energy?")
+    print(f"A baseball weighing {m} kg is traveling through the air at {v} m/s. Its diameter is {r*2}m and it is rotating {freq}x/s. What is its total kinetic energy? Inertia for a solid sphere is (2/5 * m * r^2).")
     input()
 
     ## SOLUTION
 
     Kt = (m * v**2) / 2
-    Kr = (m * r**2 * radians(360 * freq)**2) / 2
+
+    I = 2/5 * m * r**2
+    omega = radians(360 * freq)
+    Kr = 0.5 * I * omega**2
     K = round(Kt + Kr, 2)
 
     print(f"K = {K} J")

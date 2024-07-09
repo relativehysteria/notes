@@ -29,12 +29,16 @@ using torque, one can derive angular acceleration like so:
 so, angular acceleration is $\alpha = \frac{\sum \tau_i}{\sum m_i r_i^2}$
 
 that is to say: since in normal acceleration, $\frac{F}{m}$, the mass acts as
-inertia, in this case, $m r^2$ is _rotational inertia_. you can use this knowledge
+inertia, in this case, $m r^2$ is _rotational inertia a disc_. you can use this knowledge
 to derive the formula for rotational/angular kinetic energy: if kinetic energy is
 $\frac{mv^2}{2}$, where mass is the inertia, if you replace the inertia with
 rotational inertia and the velocity with angular velocity, you get $\frac{mr^2 \omega^2}{2}$
 
-so, rotational kinetic energy is $\frac{mr^2 \omega^2}{2}$
+so, rotational kinetic energy of a disc is $\frac{mr^2 \omega^2}{2}$
 
 angular momentum is $m v_t r$, where tangential velocity can be replaced with
-$\omega r$, therefore, angular momentum is $m \omega r^2$
+$\omega r$, therefore, angular momentum of a disc is $m r^2 \omega$
+
+inertia for each rotating object can be different; that is, torque exercises
+that require the calculation of rotational dynamics must specify the inertia
+for said object. otherwise, always assume a disc: $I = m r^2$
