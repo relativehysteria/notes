@@ -10,4 +10,5 @@ TODO:
 6. [energy](./energy)
 7. [momentum](./momentum)
 8. [torque](./torque)
+9. [fluid statics](./fluid_statics)
 9. [oscillations and mechanical waves](./oscillations)
