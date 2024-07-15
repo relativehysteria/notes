@@ -32,4 +32,6 @@ utmost importance, in hydrostatics the area plays this role. conservation of
 energy tells us that the system cannot do more work than is done on it.
 
 _archimedes' principle_: the buoyant force on an object equals the weight of
-the fluid it displaces; $F_b = \rho V g$
+the fluid it displaces; $F_b = \rho V g$. the fraction of an object that
+is submerged in a liquid is given by this equation:
+$f_sub = \frac{\rho_{object}}{\rho_{liquid}}$
