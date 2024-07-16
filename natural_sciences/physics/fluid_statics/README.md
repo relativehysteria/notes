@@ -1,4 +1,4 @@
-density is mass per unit volume; $rho = \frac{m}{V}$ -- the amount of massive
+density is mass per unit volume; $\rho = \frac{m}{V}$ -- the amount of massive
 particles in a volume; unit is $\frac{kg}{m^3}$
     
 pressure is force applied over area: $P = \frac{F}{A}$; unit is $Pascal$
@@ -32,6 +32,8 @@ utmost importance, in hydrostatics the area plays this role. conservation of
 energy tells us that the system cannot do more work than is done on it.
 
 _archimedes' principle_: the buoyant force on an object equals the weight of
-the fluid it displaces; $F_b = \rho V g$. the fraction of an object that
-is submerged in a liquid is given by this equation:
+the fluid it displaces; $F_b = \rho V g$. a better yet description is that 
+the weight of a fluid displaced by an object is equal to the weight of the
+object itself: $m_f g = m_o g$. the fraction of an object that is submerged in
+a liquid is then given by this equation:
 $f_{submerged} = \frac{\rho_{object}}{\rho_{liquid}}$
