@@ -34,6 +34,6 @@ energy tells us that the system cannot do more work than is done on it.
 _archimedes' principle_: the buoyant force on an object equals the weight of
 the fluid it displaces; $F_b = \rho V g$. a better yet description is that 
 the weight of a fluid displaced by an object is equal to the weight of the
-object itself: $m_f g = m_o g$. the fraction of an object that is submerged in
-a liquid is then given by this equation:
+__entire__ object itself: $m_f g = m_o g$. the fraction of an object that is
+submerged in a liquid is then given by this equation:
 $f_{submerged} = \frac{\rho_{object}}{\rho_{liquid}}$
