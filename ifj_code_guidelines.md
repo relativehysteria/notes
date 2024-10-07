@@ -135,7 +135,7 @@ Předpoklady a invarianty lze také dokumentovat pomocí atributů
 (například [`restrict`](https://en.wikipedia.org/wiki/Restrict),
 [`[[nodiscard]]`](https://clang.llvm.org/docs/AttributeReference.html#nodiscard-warn-unused-result),
 atd.), pokud vám nevadí extra podrobně zdokumentovaný kód. Berte ale na paměť,
-že [tyto atributy jsou `assumed, but unchecked`](11-validate-attributes).
+že [tyto atributy jsou _assumed, but unchecked_](11-validate-attributes).
 
 Například:
 
@@ -197,8 +197,8 @@ Délku řádků udržujte pod __80 znaků__.
 
 ### 6. Braces
 
-Svorkujte podle [K&R](https://en.wikipedia.org/wiki/Indentation_style#K&R),
-ale nemíchejte single-line věci bez svorek s multi-line věcmi se svorkami.
+Svorkujte podle [1TBS](https://en.wikipedia.org/wiki/Indentation_style#One_True_Brace).
+Klidně nesvorkujte u single-line věcí, ale nemíchejte je s multi-line věcmi.
 
 Tohle je v pohodě:
 
@@ -337,8 +337,8 @@ Pokud se překrývají, použije `add` a pracuje na 1 `int`u najednou
 (i když je ten loop trošku optimalizovaný a jsou tam unrollnuté 4 akce na jeden
 cyklus, takže vlastně pracuje na 4 `int`ech po sobě, nikoliv však najednou).
 
-[godbolt zde](https://godbolt.org/z/WsM41T1Gv).
+[godbolt zde](https://godbolt.org/z/WsM41T1Gv).  
 S použítí `restrict` compiler rovnou vygeneruje vektorizovaný kód bez kontroly
 překrývajících se pointerů. Vyvolat tuhle funkci s aliasovanými pointery je
-undefined behavior, jelikož bylo compiler přislíbeno, že se tak nestane a že tak
+undefined behavior, jelikož bylo compileru přislíbeno, že se tak nestane a že tak
 může vektorizovat s jakýmikoliv argumenty.
