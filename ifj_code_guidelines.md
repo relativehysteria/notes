@@ -125,7 +125,7 @@ Uveďte:
    "string je case-sensitive",
    ["pointer nesmí být aliasovaný"](https://en.wikipedia.org/wiki/Restrict);
    invarianty jsou
-   [popsany zde](https://softwareengineering.stackexchange.com/q/32727)).
+   [popsané zde](https://softwareengineering.stackexchange.com/q/32727)).
 
 Takovéto komentáře pište souvislým způsobem (nepoužívejte komentáře na styl
 doxygen) a argumenty popisujte implicitně (nemusíte pro každý vytvářet vlastní
