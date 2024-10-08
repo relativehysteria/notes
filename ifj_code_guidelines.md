@@ -6,28 +6,30 @@ specifický howto na psaní dobrého a bezpečného kódu (mimo základy).
 
 ### 1. Headers and Header Files
 
-Každý `.c` a `.h` soubor musí mít header koment, ve kterém je zmíněn
-* Popis IFJ projektu (`// Projekt: Implementace překladače imperativního jazyka IFJ24`).
+Každý `.c` a `.h` soubor musí mít header koment, ve kterém je v angličtině zmíněn
+* Popis IFJ projektu (`// Project: Implementation of a compiler for the IFJ24 imperative language.`)
 * Zodpovědný autor.
-* Popis souboru (například `Implementace procedur a struktur pro práci s expression stackem.`)
+* Popis souboru (například `Procedures and structs for working with expression stacks.`)
 
-Každý `.h` soubor musí obsahovat include header guard.
+Každý `.h` soubor musí obsahovat guard ve formě
+[`#pragma once`](https://en.wikipedia.org/wiki/Pragma_once). Tenhle guard
+uváďějte _pod_ header koment. Nepoužívejte starý `#ifndef PARSER_H` způsob;
+nepodporujeme staré compilery.
 
 Všechny deklarace a prototypy by musí být v `.h` souborech a musí být logicky
 seřazeny (např. všechny stack-related funkce by měly být u sebe).
 
-Nevyčerpávající příklad pro `parser.h` (bez dokumentace):
-
   ```c
-  // Projekt: Implementace překladače imperativního jazyka IFJ24
-  // Autor: Rostislav Růžička (xrostik2d)
+  // Project: Implementation of a compiler for the IFJ24 imperative language.
+  // Author: John Fantomas (xfantom2d)
   //
-  // Definice pro parsovani toho a toho a metody pro práci s expression stackem.
+  // Stuff for effective parsing of this and that and for working with
+  // expression stacks.
 
-  #ifndef PARSER_H
-  #define PARSER_H
+  #pragma once
 
   #include "ast.h"
+
 
   typedef enum {
       OP_NEGATE = 0,
@@ -47,8 +49,6 @@ Nevyčerpávající příklad pro `parser.h` (bez dokumentace):
   void expr_stack_init(expr_stack*);
   bool expr_stack_is_empty(const expr_stack*);
   bool expr_stack_is_full(const expr_stack*);
-
-  #endif // PARSER_H
   ```
 
 ### 2. Naming Conventions
@@ -75,7 +75,7 @@ Hvězdička u definice pointeru je _vedle typu_, nikoliv vedle proměnné.
 psaly u proměnných kvůli více deklaracím na jednom řádku. Například:
 
   ```c
-  // `a` a `c` jsou pointery na `size_t`, zatímco `b` _je_ `size_t`.
+  // `a` a `c` are pointing at `size_t`, whereas `b` _is_ `size_t`.
   size_t *a, b, *c;
   ```
 
@@ -89,26 +89,24 @@ Pro single-line komentáře, používejte `//`.
 Nemusíte je psát na vlastní řádek; pokud je napíšete vedle kódu,
 odsaďte je dvěma mezerami od kódu (python style).
 
-Pro multi-line, používejte blokové komentáře `/* */`.
-Přeskočte první a poslední řádek (na kterém jsou respektive `/*` a `*/`)
-a hvězdičky seřaďte pod sebou do stejného sloupce.
+Pro multi-line, používejte blokové komentáře `/* */` v jakémkoliv formátu.
+Hvězdičky seřaďte pod sebou do stejného sloupce.
+Pro [dokumentaci funkcí](#4-documentation), přeskočte první a poslední řádek (na
+kterém jsou respektive `/*` a `*/`).
 
 Text uvnitř komentáře vždy odsaďtě aspoň jednou mezerou a dodržujte gramatická
 pravidla (minimálně kapitalizace prvního písmena; věty zakončeny tečkou).
-Věty piště česky/slovensky, ale klidně využívejte anglická slova.
+Všechny komentáře a dokumentaci piště __anglicky__.
 
   ```c
-  // Tohle je validní single-line komentář.
-  uint32_t x = 0;  // Validní: Vedle kódu, dvě mezery před komentářem.
+  // This is a valid single-line comment.
+  uint32_t x = 0;  // Also valid: Next to code, two spaces before the comment.
 
-  /*
-   * Tohle je validní multi-line komentář.
-   * Hvězdičky jsou seřazeny pod sebou ve stejném sloupci.
-   * První i poslední řádek je přeskočen.
-   */
+  /* This is a valid
+   * multi-line comment. */
 
-   /* tohle je invalidní multi-line komentář. první řádek není přeskočen.
-   * hvězdičky nejsou seřazeny pod sebou. věty nejsou kapitalizovány. */
+  /* this is an invalid multi-line comment.
+  * asterisks aren't aligned. sentences aren't capitalized. */
   ```
 
 ### 4. Documentation
@@ -125,7 +123,9 @@ Uveďte:
  * popis return typu (mimo `void`, který je implicitní)
  * pokud nutno, popis předpokladů a invariant (např. "pointer nesmí být `NULL`",
    "string je case-sensitive",
-   ["pointer nesmí být aliasovaný"](https://en.wikipedia.org/wiki/Restrict))
+   ["pointer nesmí být aliasovaný"](https://en.wikipedia.org/wiki/Restrict);
+   invarianty jsou
+   [popsany zde](https://softwareengineering.stackexchange.com/q/32727)).
 
 Takovéto komentáře pište souvislým způsobem (nepoužívejte komentáře na styl
 doxygen) a argumenty popisujte implicitně (nemusíte pro každý vytvářet vlastní
@@ -135,17 +135,17 @@ Předpoklady a invarianty lze také dokumentovat pomocí atributů
 (například [`restrict`](https://en.wikipedia.org/wiki/Restrict),
 [`[[nodiscard]]`](https://clang.llvm.org/docs/AttributeReference.html#nodiscard-warn-unused-result),
 atd.), pokud vám nevadí extra podrobně zdokumentovaný kód. Berte ale na paměť,
-že [tyto atributy jsou _assumed, but unchecked_](11-validate-attributes).
+že [tyto atributy jsou _assumed, but unchecked_](#11-validate-attributes).
 
 Například:
 
   ```c
     /**
-     * Pokud `child` node nemá jiného ancestora, připne ho pod `ancestor` node.
-     * V případě, že `ancestor` nemá dostatečnou kapacitu pro nový node, pokusí
-     * se své děti realokovat do většího bufferu.
+     * If `child` hasn't yet been assigned an ancestor, it is assigned to the
+     * `ancestor` node. If `ancestor` doesn't have enough space for a new node,
+     * it attempts to reallocate its children into a larger buffer.
      *
-     * Vrátí `true`, pokud se append zadaří, jinak `false`.
+     * Returns `true` if the append succeeds, otherwise `false`.
      */
     [[nodiscard]] bool append_node(node const* restrict child,
                                    node const* restrict ancestor) {}
@@ -160,19 +160,19 @@ vedle kódu, je na vás. Tohle je validní dokumentace elementů:
 
   ```c
   typedef struct {
-      expr_stack_node** stack;  // Paměť naalokovaná pro data stacku.
-      size_t capacity;          // Maximální nynější naalokovaná paměť pro stack.
-      size_t top_idx;           // Index prvku na vrcholu stacku.
+      expr_stack_node** stack;  // Buffer pre-allocated for the stack data.
+      size_t capacity;          // The length of the `stack` buffer in elements.
+      size_t top_idx;           // Index to the top element of the stack.
   } expr_stack;
 
   typedef struct {
-      // Paměť naalokovaná pro data stacku.
+      // Buffer pre-allocated for the inner stack data.
       expr_stack_node** stack;
 
-      // Maximální nynější naalokovaná paměť pro stack.
+      // The amount of elements the inner `stack` buffer is capable of holding.
       size_t capacity;
 
-      // Index prvku na vrcholu stacku.
+      // Index to the top element of the stack.
       size_t top_idx;
   } expr_stack;
   ```
