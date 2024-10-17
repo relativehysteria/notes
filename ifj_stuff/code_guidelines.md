@@ -11,13 +11,22 @@ Každý `.c` a `.h` soubor musí mít header koment, ve kterém je v angličtin�
 * Zodpovědný autor.
 * Popis souboru (například `Procedures and structs for working with expression stacks.`)
 
-Každý `.h` soubor musí obsahovat guard ve formě
-[`#pragma once`](https://en.wikipedia.org/wiki/Pragma_once). Tenhle guard
-uváďějte _pod_ header koment. Nepoužívejte starý `#ifndef PARSER_H` způsob;
-nepodporujeme staré compilery.
+Každý `.h` soubor musí obsahovat guard buď ve formě
+[`#pragma once`](https://en.wikipedia.org/wiki/Pragma_once), nebo ve formě
+  ```c
+  #ifndef AST_H
+  #define AST_H
+  
+  // ...
+  
+  #endif /* AST_H */
+  ```
 
-Všechny deklarace a prototypy by musí být v `.h` souborech a musí být logicky
+Konzistentně používejte pouze jeden.
+
+Všechny deklarace a prototypy musí být v `.h` souborech a musí být logicky
 seřazeny (např. všechny stack-related funkce by měly být u sebe).
+Výjimkou jsou private funkce a interní logika.
 
   ```c
   // Project: Implementation of a compiler for the IFJ24 imperative language.
@@ -89,10 +98,9 @@ Pro single-line komentáře, používejte `//`.
 Nemusíte je psát na vlastní řádek; pokud je napíšete vedle kódu,
 odsaďte je dvěma mezerami od kódu (python style).
 
-Pro multi-line, používejte blokové komentáře `/* */` v jakémkoliv formátu.
-Hvězdičky seřaďte pod sebou do stejného sloupce.
-Pro [dokumentaci funkcí](#4-documentation), přeskočte první a poslední řádek (na
-kterém jsou respektive `/*` a `*/`).
+Pro multi-line komentáře, používejte blokové komentáře `/* */` v jakémkoliv
+formátu nebo skupiny `//` dle libosti. V případě blokových komentářů,
+hvězdičky seřaďte pod sebou do stejného sloupce.
 
 Text uvnitř komentáře vždy odsaďtě aspoň jednou mezerou a dodržujte gramatická
 pravidla (minimálně kapitalizace prvního písmena; věty zakončeny tečkou).
@@ -249,6 +257,19 @@ Vyhněte se inicializaci proměnné a její kontrole na jednom řádku. Tohle je
   while ((line = fgets(buffer, sizeof(buffer), file)) != NULL) {}
   ```
 
+## `clang-tidy`
+
+Pro kontrolu většiny formátování lze nastavit `clang-tidy`. Stačí do projektu
+přidat soubor [`.clang-tidy`](clang-tidy.yml) a do `Makefile` přidat pravidlo
+
+  ```
+  format:
+      clang-tidy src/*
+  ```
+
+Tato konfigurace ale není exhaustive a je dobré se řídit guidelinama i v
+případech, ve kterých `clang-tidy` nevyhazuje errory.
+
 ## Safety, Correctness, Pitfall Prevention
 
 ### 1. Use `const` Extensively
@@ -342,3 +363,42 @@ S použítí `restrict` compiler rovnou vygeneruje vektorizovaný kód bez kontr
 překrývajících se pointerů. Vyvolat tuhle funkci s aliasovanými pointery je
 undefined behavior, jelikož bylo compileru přislíbeno, že se tak nestane a že tak
 může vektorizovat s jakýmikoliv argumenty.
+
+### 12. Assertions
+
+Pro kontrolu předpokladů, invariant a pro validaci argumentů v případech, ve
+kterých se může funkce chovat nepředpokládaně, používejte `assert()`.
+
+Například tato funkce je nebezpečná v případě, že je jeden z pointerů `NULL`.
+
+  ```c
+  void* vec_leak(vector** vec) {
+      void* ptr = (*vec)->inner;
+      (*vec)->inner = NULL;
+  
+      free(*vec);
+      (*vec) = NULL;
+      return ptr;
+  }
+  ```
+
+Pokud je tato funkce definovaná správně a doopravdy očekává, že žádný z pointerů
+nikdy nebude `NULL`, mimo dokumentování takového předpokladu:
+
+  ```c
+  /* ... The pointer to the vector or any of its associated pointers MUST NOT be
+   * `NULL`. */
+  void* vec_leak(vector** vec) {}
+  ```
+
+Tyto předpoklady také assertujte:
+
+  ```c
+  void* vec_leak(vector** vec) {
+      assert(vec != NULL && (*vec) != NULL);
+  }
+  ```
+
+Během testování vám `assert()` přímo řekne, kde byl jaký předpoklad narušen a
+kde se schovává jakákoliv chyba. Při vytváření release buildů pak stačí
+[všechny asserty vypnout](https://stackoverflow.com/q/5354314).

@@ -1,0 +1,52 @@
+# https://clang.llvm.org/extra/clang-tidy/checks/list.html
+Checks: "-*,readability-identifier-naming,readability-avoid-return-with-void-value,readability-duplicate-include,readability-else-after-return,readability-implicit-bool-conversion,readability-inconsistent-declaration-parameter-name,readability-isolate-declaration,readability-math-missing-parentheses,readability-misplaced-array-index,readability-non-const-parameter"
+
+CheckOptions:
+  - key: readability-avoid-return-with-void-value
+    value: true
+  - key: readability-duplicate-include
+    value: true
+  - key: readability-else-after-return
+    value: true
+  - key: readability-implicit-bool-conversion
+    value: true
+  - key: readability-inconsistent-declaration-parameter-name
+    value: true
+  - key: readability-isolate-declaration
+    value: true
+  - key: readability-math-missing-parentheses
+    value: true
+  - key: readability-misplaced-array-index
+    value: true
+  - key: readability-non-const-parameter
+    value: true
+
+  - key: readability-identifier-naming.EnumConstantCase
+    value: UPPER_CASE
+  - key: readability-identifier-naming.ConstantCase
+    value: UPPER_CASE
+  - key: readability-identifier-naming.MacroDefinitionCase
+    value: UPPER_CASE
+
+  - key: readability-identifier-naming.FunctionCase
+    value: lower_case
+  - key: readability-identifier-naming.StructCase
+    value: lower_case
+  - key: readability-identifier-naming.TypedefCase
+    value: lower_case
+  - key: readability-identifier-naming.LocalVariableCase
+    value: lower_case
+  - key: readability-identifier-naming.LocalPointerCase
+    value: lower_case
+  - key: readability-identifier-naming.LocalConstantVariableCase
+    value: lower_case
+  - key: readability-identifier-naming.LocalConstantPointerCase
+    value: lower_case
+  - key: readability-identifier-naming.ParameterCase
+    value: lower_case
+  - key: readability-identifier-naming.ConstantParameterCase
+    value: lower_case
+  - key: readability-identifier-naming.EnumCase
+    value: lower_case
+  - key: readability-identifier-naming.UnionCase
+    value: lower_case
