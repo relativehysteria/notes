@@ -1,9 +1,5 @@
 my indoor plants :)
 
-TODO:
-* add pics
-* buy grow lights
-
 ## TIPS
 
 * __Cluster Plants__: Grouping plants together can help maintain a more humid
